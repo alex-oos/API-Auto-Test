@@ -1,0 +1,1405 @@
+2019-09-06 11:32:59,188 [INFO] com.demo.common.utils.ListenerUtils - --> com.dalingapi.TestBenefit
+2019-09-06 11:32:59,199 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimension_Yesterday
+2019-09-06 11:32:59,580 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 11:32:59,580 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=0
+2019-09-06 11:33:01,646 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=45, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T113300.789Z, status=0, errorMsg=全部成功}
+2019-09-06 11:33:01,897 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimension_Yesterday
+2019-09-06 11:33:01,898 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : true
+2019-09-06 11:33:01,898 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 2706
+2019-09-06 11:33:01,898 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 1
+2019-09-06 11:33:01,898 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 0
+2019-09-06 11:33:01,898 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 11:33:14,774 [INFO] com.demo.common.utils.ListenerUtils - --> com.dalingapi.TestBenefit
+2019-09-06 11:33:14,780 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 11:33:15,089 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 11:33:15,090 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=5&topN=10
+2019-09-06 11:33:16,750 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567740795893, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T113315.893Z}
+2019-09-06 11:33:17,012 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 1 failed
+2019-09-06 11:33:17,012 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 11:33:17,012 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=5&topN=10
+2019-09-06 11:33:17,144 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567740796532, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T113316.531Z}
+2019-09-06 11:33:17,156 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 2 failed
+2019-09-06 11:33:17,156 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: giving up after 2 failures
+2019-09-06 11:33:17,162 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 11:33:17,163 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 11:33:17,163 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.popularGoods10
+2019-09-06 11:33:17,164 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 11:33:17,164 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=5&topN=10
+2019-09-06 11:33:17,296 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567740796688, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T113316.688Z}
+2019-09-06 11:33:17,304 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods10: run 1 failed
+2019-09-06 11:33:17,304 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 11:33:17,305 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=5&topN=10
+2019-09-06 11:33:17,428 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567740796821, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T113316.820Z}
+2019-09-06 11:33:17,436 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods10: run 2 failed
+2019-09-06 11:33:17,436 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods10: giving up after 2 failures
+2019-09-06 11:33:17,437 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 11:33:17,437 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.popularGoods10
+2019-09-06 11:33:17,438 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimensionMouth
+2019-09-06 11:33:17,438 [INFO] com.demo.common.utils.ProxyUtils - [/xc_empower/benefit/sumBenefitRefundTimeDimension.do]时间维度查询店主累计收益与退款
+2019-09-06 11:33:17,438 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_empower/benefit/sumBenefitRefundTimeDimension.do?timeDimension=1
+2019-09-06 11:33:17,596 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={benefit=[], refund=[]}, trackId=41e838c3-b2b2-4e43-a6f3-909e577e928a, stopWatch=1567740796985, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T113316.985Z}
+2019-09-06 11:33:17,605 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimensionMouth
+2019-09-06 11:33:17,605 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimensionToday
+2019-09-06 11:33:17,605 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 11:33:17,605 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=3
+2019-09-06 11:33:17,757 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=30, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T113317.119Z, status=0, errorMsg=全部成功}
+2019-09-06 11:33:17,766 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimensionToday
+2019-09-06 11:33:17,766 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.shopPopularGoods100
+2019-09-06 11:33:17,766 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 11:33:17,766 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=0&topN=100
+2019-09-06 11:33:17,880 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567740797273, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T113317.273Z}
+2019-09-06 11:33:17,886 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods100: run 1 failed
+2019-09-06 11:33:17,887 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 11:33:17,887 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=0&topN=100
+2019-09-06 11:33:18,006 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567740797396, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T113317.396Z}
+2019-09-06 11:33:18,012 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods100: run 2 failed
+2019-09-06 11:33:18,012 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods100: giving up after 2 failures
+2019-09-06 11:33:18,013 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 11:33:18,013 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.shopPopularGoods100
+2019-09-06 11:33:18,013 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Year
+2019-09-06 11:33:18,014 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitHistogramTimeDimension.do]7日收益图
+2019-09-06 11:33:18,014 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitHistogramTimeDimension.do?timeDimension=1
+2019-09-06 11:33:18,136 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data=[{dateTime=2019-08-31, sumAmount=0}, {dateTime=2019-09-01, sumAmount=0}, {dateTime=2019-09-02, sumAmount=0}, {dateTime=2019-09-03, sumAmount=0}, {dateTime=2019-09-04, sumAmount=0}, {dateTime=2019-09-05, sumAmount=0}, {dateTime=2019-09-06, sumAmount=0}], trackId=865b62d7-6676-4629-81b8-b38b53bad355, stopWatch=1567740797528, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T113317.528Z}
+2019-09-06 11:33:18,142 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Year
+2019-09-06 11:33:18,142 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.list01
+2019-09-06 11:33:18,143 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 11:33:18,143 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=[Ljava.lang.Integer;@13cda7c9&start=3&limit=4&type=1&endDateStr=2019-09-06
+2019-09-06 11:33:18,152 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list01: run 1 failed
+2019-09-06 11:33:18,153 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 11:33:18,153 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=[Ljava.lang.Integer;@78d39a69&start=3&limit=4&type=1&endDateStr=2019-09-06
+2019-09-06 11:33:18,154 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list01: run 2 failed
+2019-09-06 11:33:18,154 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list01: giving up after 2 failures
+2019-09-06 11:33:18,156 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : Cannot serialize because cannot determine how to serialize content-type x-www-form-urlencoded
+2019-09-06 11:33:18,156 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.list01
+2019-09-06 11:33:18,156 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.list02
+2019-09-06 11:33:18,157 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 11:33:18,157 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=[Ljava.lang.Integer;@15f193b8&start=0&limit=5&type=2&endDateStr=2019-09-06
+2019-09-06 11:33:18,158 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list02: run 1 failed
+2019-09-06 11:33:18,158 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 11:33:18,158 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=[Ljava.lang.Integer;@2516fc68&start=0&limit=5&type=2&endDateStr=2019-09-06
+2019-09-06 11:33:18,160 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list02: run 2 failed
+2019-09-06 11:33:18,160 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list02: giving up after 2 failures
+2019-09-06 11:33:18,163 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : Cannot serialize because cannot determine how to serialize content-type x-www-form-urlencoded
+2019-09-06 11:33:18,163 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.list02
+2019-09-06 11:33:18,163 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Mouth
+2019-09-06 11:33:18,163 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitHistogramTimeDimension.do]7日收益图
+2019-09-06 11:33:18,163 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitHistogramTimeDimension.do?timeDimension=3
+2019-09-06 11:33:18,285 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data=[{dateTime=2019-08-31, sumAmount=0}, {dateTime=2019-09-01, sumAmount=0}, {dateTime=2019-09-02, sumAmount=0}, {dateTime=2019-09-03, sumAmount=0}, {dateTime=2019-09-04, sumAmount=0}, {dateTime=2019-09-05, sumAmount=0}, {dateTime=2019-09-06, sumAmount=0}], trackId=cc74fe89-a11e-42fb-9502-3d1a546cb762, stopWatch=1567740797677, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T113317.677Z}
+2019-09-06 11:33:18,295 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Mouth
+2019-09-06 11:33:18,295 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitRefundTimeDimensionDay
+2019-09-06 11:33:18,295 [INFO] com.demo.common.utils.ProxyUtils - [/xc_empower/benefit/sumBenefitRefundTimeDimension.do]时间维度查询店主累计收益与退款
+2019-09-06 11:33:18,295 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_empower/benefit/sumBenefitRefundTimeDimension.do?timeDimension=3
+2019-09-06 11:33:18,415 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={benefit=[], refund=[]}, trackId=ae17aea7-de4d-4ba3-a4ff-20a60a33c03a, stopWatch=1567740797806, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T113317.806Z}
+2019-09-06 11:33:18,422 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitRefundTimeDimensionDay
+2019-09-06 11:33:18,422 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.top
+2019-09-06 11:33:18,423 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/empower/browse/top.do]浏览轨迹
+2019-09-06 11:33:18,423 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/empower/browse/top.do?start=100
+2019-09-06 11:33:18,537 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, trackId=908fcae0-43ca-4f6b-bbce-5c6253e59880, stopWatch=1567740797927, version=1.0, errorMsg=获取不到热销产品，请刷新重试！, status=599, timestamp=190906T113317.927Z}
+2019-09-06 11:33:18,545 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: run 1 failed
+2019-09-06 11:33:18,546 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/empower/browse/top.do]浏览轨迹
+2019-09-06 11:33:18,546 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/empower/browse/top.do?start=100
+2019-09-06 11:33:18,660 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, trackId=e5611613-603f-4f18-8509-ff12b34eb066, stopWatch=1567740798050, version=1.0, errorMsg=获取不到热销产品，请刷新重试！, status=599, timestamp=190906T113318.050Z}
+2019-09-06 11:33:18,666 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: run 2 failed
+2019-09-06 11:33:18,666 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: giving up after 2 failures
+2019-09-06 11:33:18,668 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 获取不到热销产品，请刷新重试！
+
+2019-09-06 11:33:18,668 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.top
+2019-09-06 11:33:18,668 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.popularGoods100
+2019-09-06 11:33:18,669 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 11:33:18,669 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=0&topN=100
+2019-09-06 11:33:18,792 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567740798183, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T113318.183Z}
+2019-09-06 11:33:18,798 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods100: run 1 failed
+2019-09-06 11:33:18,798 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 11:33:18,798 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=0&topN=100
+2019-09-06 11:33:18,904 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567740798298, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T113318.298Z}
+2019-09-06 11:33:18,909 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods100: run 2 failed
+2019-09-06 11:33:18,909 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods100: giving up after 2 failures
+2019-09-06 11:33:18,910 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 11:33:18,910 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.popularGoods100
+2019-09-06 11:33:18,910 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.index
+2019-09-06 11:33:18,910 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/index.do]店铺页资金管理
+2019-09-06 11:33:18,910 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/index.do
+2019-09-06 11:33:19,074 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={estimateAmount=35.0, withdrawalsAmount=0.0, settlementAmount=0.0, todayAmount=0.0}, trackId=280b8ff7-7e6c-4b41-95e0-17c32bd1dd11, stopWatch=1567740798458, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T113318.458Z}
+2019-09-06 11:33:19,083 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.index
+2019-09-06 11:33:19,083 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimension_Sum
+2019-09-06 11:33:19,083 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 11:33:19,083 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=2
+2019-09-06 11:33:19,215 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=28, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T113318.580Z, status=0, errorMsg=全部成功}
+2019-09-06 11:33:19,220 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimension_Sum
+2019-09-06 11:33:19,220 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefit01
+2019-09-06 11:33:19,220 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefit.do]总累计收益
+2019-09-06 11:33:19,220 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefit.do?dlj-from=Unknown&dlj-location=Unknown
+2019-09-06 11:33:19,343 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={amount=0.00}, trackId=525a51a2-7cf3-4b7a-a4b6-6255d98e12e4, stopWatch=1567740798737, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T113318.737Z}
+2019-09-06 11:33:19,349 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefit01
+2019-09-06 11:33:19,349 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefit02
+2019-09-06 11:33:19,350 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefit.do]总累计收益
+2019-09-06 11:33:19,350 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefit.do?dlj-from=Unknown1&dlj-location=Unknown
+2019-09-06 11:33:19,470 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={amount=0.00}, trackId=ecfcdfa6-ade9-440c-9f9a-555a374eae1e, stopWatch=1567740798864, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T113318.864Z}
+2019-09-06 11:33:19,476 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefit02
+2019-09-06 11:33:19,476 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimension_Yesterday
+2019-09-06 11:33:19,476 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 11:33:19,476 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=0
+2019-09-06 11:33:19,623 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=28, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T113318.988Z, status=0, errorMsg=全部成功}
+2019-09-06 11:33:19,628 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimension_Yesterday
+2019-09-06 11:33:19,628 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimension_Mouth
+2019-09-06 11:33:19,628 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 11:33:19,628 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=1
+2019-09-06 11:33:19,759 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=27, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T113319.126Z, status=0, errorMsg=全部成功}
+2019-09-06 11:33:19,764 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimension_Mouth
+2019-09-06 11:33:19,764 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.indexV1
+2019-09-06 11:33:19,764 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/indexV1.do]查询店铺首页数据
+2019-09-06 11:33:19,764 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/indexV1.do
+2019-09-06 11:33:20,036 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={yesterday={amount=0.00, orderCount=0, sales=0.00}, total={amount=0.00, orderCount=0, sales=0.00}, month={amount=0.00, orderCount=0, sales=0.00}, today={amount=0.00, orderCount=0, sales=0.00}}, trackId=1922e8bc-0d0d-4afd-8539-525bfe19fb96, stopWatch=1567740799427, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T113319.427Z}
+2019-09-06 11:33:20,042 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.indexV1
+2019-09-06 11:33:20,043 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 11:33:20,043 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 5266
+2019-09-06 11:33:20,043 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 19
+2019-09-06 11:33:20,043 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 7
+2019-09-06 11:33:20,043 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 11:46:17,766 [INFO] com.demo.common.utils.ListenerUtils - --> com.dalingapi.TestBenefit
+2019-09-06 11:46:17,774 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 11:46:18,115 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 11:46:18,115 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=5&topN=10
+2019-09-06 11:46:20,050 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567741579223, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T114619.223Z}
+2019-09-06 11:46:20,303 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 1 failed
+2019-09-06 11:46:20,303 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 11:46:20,303 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=5&topN=10
+2019-09-06 11:46:20,643 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567741580039, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T114620.039Z}
+2019-09-06 11:46:20,653 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 2 failed
+2019-09-06 11:46:20,653 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: giving up after 2 failures
+2019-09-06 11:46:20,657 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 11:46:20,657 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 11:46:20,658 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.popularGoods10
+2019-09-06 11:46:20,658 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 11:46:20,658 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=5&topN=10
+2019-09-06 11:46:20,964 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567741580363, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T114620.363Z}
+2019-09-06 11:46:20,972 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods10: run 1 failed
+2019-09-06 11:46:20,972 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 11:46:20,972 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=5&topN=10
+2019-09-06 11:46:21,101 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567741580487, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T114620.486Z}
+2019-09-06 11:46:21,110 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods10: run 2 failed
+2019-09-06 11:46:21,110 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods10: giving up after 2 failures
+2019-09-06 11:46:21,111 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 11:46:21,112 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.popularGoods10
+2019-09-06 11:46:21,112 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimensionMouth
+2019-09-06 11:46:21,112 [INFO] com.demo.common.utils.ProxyUtils - [/xc_empower/benefit/sumBenefitRefundTimeDimension.do]时间维度查询店主累计收益与退款
+2019-09-06 11:46:21,112 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_empower/benefit/sumBenefitRefundTimeDimension.do?timeDimension=1
+2019-09-06 11:46:21,450 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={benefit=[], refund=[]}, trackId=fc686f57-2fb6-4ed9-9ada-eaa748f91f45, stopWatch=1567741580677, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T114620.677Z}
+2019-09-06 11:46:21,458 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimensionMouth
+2019-09-06 11:46:21,458 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimensionToday
+2019-09-06 11:46:21,458 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 11:46:21,458 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=3
+2019-09-06 11:46:21,641 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=32, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T114621.003Z, status=0, errorMsg=全部成功}
+2019-09-06 11:46:21,649 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimensionToday
+2019-09-06 11:46:21,649 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.shopPopularGoods100
+2019-09-06 11:46:21,649 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 11:46:21,649 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=0&topN=100
+2019-09-06 11:46:21,756 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567741581155, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T114621.155Z}
+2019-09-06 11:46:21,762 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods100: run 1 failed
+2019-09-06 11:46:21,763 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 11:46:21,763 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=0&topN=100
+2019-09-06 11:46:21,877 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567741581274, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T114621.274Z}
+2019-09-06 11:46:21,884 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods100: run 2 failed
+2019-09-06 11:46:21,884 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods100: giving up after 2 failures
+2019-09-06 11:46:21,885 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 11:46:21,885 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.shopPopularGoods100
+2019-09-06 11:46:21,886 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Year
+2019-09-06 11:46:21,886 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitHistogramTimeDimension.do]7日收益图
+2019-09-06 11:46:21,886 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitHistogramTimeDimension.do?timeDimension=1
+2019-09-06 11:46:22,020 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data=[{dateTime=2019-08-31, sumAmount=0}, {dateTime=2019-09-01, sumAmount=0}, {dateTime=2019-09-02, sumAmount=0}, {dateTime=2019-09-03, sumAmount=0}, {dateTime=2019-09-04, sumAmount=0}, {dateTime=2019-09-05, sumAmount=0}, {dateTime=2019-09-06, sumAmount=0}], trackId=ba2d353d-7f0f-48fd-903a-de940a885833, stopWatch=1567741581414, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T114621.414Z}
+2019-09-06 11:46:22,028 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Year
+2019-09-06 11:46:22,028 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.list01
+2019-09-06 11:46:22,029 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 11:46:22,029 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=[Ljava.lang.Integer;@13cda7c9&start=3&limit=4&type=1&endDateStr=2019-09-06
+2019-09-06 11:46:22,040 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list01: run 1 failed
+2019-09-06 11:46:22,040 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 11:46:22,040 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=[Ljava.lang.Integer;@78d39a69&start=3&limit=4&type=1&endDateStr=2019-09-06
+2019-09-06 11:46:22,041 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list01: run 2 failed
+2019-09-06 11:46:22,041 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list01: giving up after 2 failures
+2019-09-06 11:46:22,044 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : Cannot serialize because cannot determine how to serialize content-type x-www-form-urlencoded
+2019-09-06 11:46:22,044 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.list01
+2019-09-06 11:46:22,044 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.list02
+2019-09-06 11:46:22,044 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 11:46:22,045 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=[Ljava.lang.Integer;@15f193b8&start=0&limit=5&type=2&endDateStr=2019-09-06
+2019-09-06 11:46:22,046 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list02: run 1 failed
+2019-09-06 11:46:22,046 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 11:46:22,046 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=[Ljava.lang.Integer;@2516fc68&start=0&limit=5&type=2&endDateStr=2019-09-06
+2019-09-06 11:46:22,048 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list02: run 2 failed
+2019-09-06 11:46:22,048 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list02: giving up after 2 failures
+2019-09-06 11:46:22,051 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : Cannot serialize because cannot determine how to serialize content-type x-www-form-urlencoded
+2019-09-06 11:46:22,052 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.list02
+2019-09-06 11:46:22,053 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Mouth
+2019-09-06 11:46:22,053 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitHistogramTimeDimension.do]7日收益图
+2019-09-06 11:46:22,053 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitHistogramTimeDimension.do?timeDimension=3
+2019-09-06 11:46:22,170 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data=[{dateTime=2019-08-31, sumAmount=0}, {dateTime=2019-09-01, sumAmount=0}, {dateTime=2019-09-02, sumAmount=0}, {dateTime=2019-09-03, sumAmount=0}, {dateTime=2019-09-04, sumAmount=0}, {dateTime=2019-09-05, sumAmount=0}, {dateTime=2019-09-06, sumAmount=0}], trackId=edb9155f-eee4-4b8e-aa68-a412d72cf8fa, stopWatch=1567741581568, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T114621.568Z}
+2019-09-06 11:46:22,179 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Mouth
+2019-09-06 11:46:22,179 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitRefundTimeDimensionDay
+2019-09-06 11:46:22,179 [INFO] com.demo.common.utils.ProxyUtils - [/xc_empower/benefit/sumBenefitRefundTimeDimension.do]时间维度查询店主累计收益与退款
+2019-09-06 11:46:22,179 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_empower/benefit/sumBenefitRefundTimeDimension.do?timeDimension=3
+2019-09-06 11:46:22,293 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={benefit=[], refund=[]}, trackId=8a667719-80b9-4954-b0dd-6a360744121f, stopWatch=1567741581692, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T114621.692Z}
+2019-09-06 11:46:22,301 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitRefundTimeDimensionDay
+2019-09-06 11:46:22,302 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.top
+2019-09-06 11:46:22,303 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/empower/browse/top.do]浏览轨迹
+2019-09-06 11:46:22,303 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/empower/browse/top.do?start=100
+2019-09-06 11:46:22,418 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, trackId=72f342d8-7896-4cc2-9043-45c289b4cf5e, stopWatch=1567741581814, version=1.0, errorMsg=获取不到热销产品，请刷新重试！, status=599, timestamp=190906T114621.814Z}
+2019-09-06 11:46:22,429 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: run 1 failed
+2019-09-06 11:46:22,430 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/empower/browse/top.do]浏览轨迹
+2019-09-06 11:46:22,430 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/empower/browse/top.do?start=100
+2019-09-06 11:46:22,548 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, trackId=3185650d-dd63-4b60-9c67-1c11ef358289, stopWatch=1567741581946, version=1.0, errorMsg=获取不到热销产品，请刷新重试！, status=599, timestamp=190906T114621.946Z}
+2019-09-06 11:46:22,556 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: run 2 failed
+2019-09-06 11:46:22,556 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: giving up after 2 failures
+2019-09-06 11:46:22,557 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 获取不到热销产品，请刷新重试！
+
+2019-09-06 11:46:22,557 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.top
+2019-09-06 11:46:22,558 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.popularGoods100
+2019-09-06 11:46:22,558 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 11:46:22,558 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=0&topN=100
+2019-09-06 11:46:22,687 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567741582084, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T114622.084Z}
+2019-09-06 11:46:22,696 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods100: run 1 failed
+2019-09-06 11:46:22,696 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 11:46:22,696 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=0&topN=100
+2019-09-06 11:46:22,809 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567741582208, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T114622.208Z}
+2019-09-06 11:46:22,818 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods100: run 2 failed
+2019-09-06 11:46:22,818 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods100: giving up after 2 failures
+2019-09-06 11:46:22,819 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 11:46:22,819 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.popularGoods100
+2019-09-06 11:46:22,820 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.index
+2019-09-06 11:46:22,820 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/index.do]店铺页资金管理
+2019-09-06 11:46:22,820 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/index.do
+2019-09-06 11:46:22,986 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={estimateAmount=35.0, withdrawalsAmount=0.0, settlementAmount=0.0, todayAmount=0.0}, trackId=4643da3c-597c-465f-8495-d36b187a717f, stopWatch=1567741582376, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T114622.376Z}
+2019-09-06 11:46:22,997 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.index
+2019-09-06 11:46:22,997 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefit
+2019-09-06 11:46:22,997 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefit.do]总累计收益
+2019-09-06 11:46:22,997 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefit.do
+2019-09-06 11:46:23,132 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={amount=0.00}, trackId=d8061d55-6b13-4cb0-87a7-fbc75f647e8e, stopWatch=1567741582531, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T114622.531Z}
+2019-09-06 11:46:23,138 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefit
+2019-09-06 11:46:23,138 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimension_Sum
+2019-09-06 11:46:23,139 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 11:46:23,139 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=2
+2019-09-06 11:46:23,277 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=30, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T114622.645Z, status=0, errorMsg=全部成功}
+2019-09-06 11:46:23,283 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimension_Sum
+2019-09-06 11:46:23,283 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimension_Yesterday
+2019-09-06 11:46:23,283 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 11:46:23,284 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=0
+2019-09-06 11:46:23,419 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=27, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T114622.790Z, status=0, errorMsg=全部成功}
+2019-09-06 11:46:23,425 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimension_Yesterday
+2019-09-06 11:46:23,425 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimension_Mouth
+2019-09-06 11:46:23,425 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 11:46:23,425 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=1
+2019-09-06 11:46:23,563 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=27, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T114622.935Z, status=0, errorMsg=全部成功}
+2019-09-06 11:46:23,569 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimension_Mouth
+2019-09-06 11:46:23,569 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.indexV1
+2019-09-06 11:46:23,569 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/indexV1.do]查询店铺首页数据
+2019-09-06 11:46:23,569 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/indexV1.do
+2019-09-06 11:46:23,840 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={yesterday={amount=0.00, orderCount=0, sales=0.00}, total={amount=0.00, orderCount=0, sales=0.00}, month={amount=0.00, orderCount=0, sales=0.00}, today={amount=0.00, orderCount=0, sales=0.00}}, trackId=65d2ab33-ec1d-40d3-a765-21e88eaec57f, stopWatch=1567741583239, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T114623.239Z}
+2019-09-06 11:46:23,846 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.indexV1
+2019-09-06 11:46:23,847 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 11:46:23,847 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 6078
+2019-09-06 11:46:23,847 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 18
+2019-09-06 11:46:23,847 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 7
+2019-09-06 11:46:23,847 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 11:50:28,262 [INFO] com.demo.common.utils.ListenerUtils - --> com.dalingapi.TestBenefit
+2019-09-06 11:50:28,272 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.list01
+2019-09-06 11:50:28,596 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 11:50:28,596 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=1&start=3&limit=4&type=1&endDateStr=2019-09-06
+2019-09-06 11:50:30,404 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567741829559, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T115029.559Z}
+2019-09-06 11:50:30,685 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list01: run 1 failed
+2019-09-06 11:50:30,685 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 11:50:30,685 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=1&start=3&limit=4&type=1&endDateStr=2019-09-06
+2019-09-06 11:50:31,045 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567741830439, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T115030.439Z}
+2019-09-06 11:50:31,064 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list01: run 2 failed
+2019-09-06 11:50:31,064 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list01: giving up after 2 failures
+2019-09-06 11:50:31,069 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 11:50:31,070 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.list01
+2019-09-06 11:50:31,070 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 11:50:31,070 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 2804
+2019-09-06 11:50:31,070 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 1
+2019-09-06 11:50:31,071 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 1
+2019-09-06 11:50:31,071 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 11:50:58,526 [INFO] com.demo.common.utils.ListenerUtils - --> com.dalingapi.TestBenefit
+2019-09-06 11:50:58,533 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.list01
+2019-09-06 11:50:58,860 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 11:50:58,860 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=1&start=3&limit=4&type=1&endDateStr=2019-09-06
+2019-09-06 11:51:00,598 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567741859749, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T115059.749Z}
+2019-09-06 11:51:00,843 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list01: run 1 failed
+2019-09-06 11:51:00,843 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 11:51:00,843 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=1&start=3&limit=4&type=1&endDateStr=2019-09-06
+2019-09-06 11:51:01,052 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567741860443, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T115100.443Z}
+2019-09-06 11:51:01,064 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list01: run 2 failed
+2019-09-06 11:51:01,064 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list01: giving up after 2 failures
+2019-09-06 11:51:01,068 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 11:51:01,068 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.list01
+2019-09-06 11:51:01,069 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 11:51:01,069 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 2540
+2019-09-06 11:51:01,069 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 1
+2019-09-06 11:51:01,069 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 1
+2019-09-06 11:51:01,070 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 11:59:20,986 [INFO] com.demo.common.utils.ListenerUtils - --> com.dalingapi.TestBenefit
+2019-09-06 11:59:20,992 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 11:59:21,363 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 11:59:21,363 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=5&topN=10
+2019-09-06 11:59:23,055 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742362242, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T115922.242Z}
+2019-09-06 11:59:23,282 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 1 failed
+2019-09-06 11:59:23,283 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 11:59:23,283 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=5&topN=10
+2019-09-06 11:59:23,428 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742362830, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T115922.830Z}
+2019-09-06 11:59:23,442 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 2 failed
+2019-09-06 11:59:23,442 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: giving up after 2 failures
+2019-09-06 11:59:23,446 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 11:59:23,447 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 11:59:23,448 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.popularGoods10
+2019-09-06 11:59:23,448 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 11:59:23,448 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=5&topN=10
+2019-09-06 11:59:23,604 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742363005, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T115923.005Z}
+2019-09-06 11:59:23,613 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods10: run 1 failed
+2019-09-06 11:59:23,613 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 11:59:23,613 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=5&topN=10
+2019-09-06 11:59:23,773 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742363145, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T115923.145Z}
+2019-09-06 11:59:23,781 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods10: run 2 failed
+2019-09-06 11:59:23,782 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods10: giving up after 2 failures
+2019-09-06 11:59:23,783 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 11:59:23,783 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.popularGoods10
+2019-09-06 11:59:23,783 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimensionMouth
+2019-09-06 11:59:23,784 [INFO] com.demo.common.utils.ProxyUtils - [/xc_empower/benefit/sumBenefitRefundTimeDimension.do]时间维度查询店主累计收益与退款
+2019-09-06 11:59:23,784 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_empower/benefit/sumBenefitRefundTimeDimension.do?timeDimension=1
+2019-09-06 11:59:23,910 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={benefit=[], refund=[]}, trackId=b90def72-4245-49b0-b826-5b5eae8ca7c8, stopWatch=1567742363314, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T115923.314Z}
+2019-09-06 11:59:23,920 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimensionMouth
+2019-09-06 11:59:23,920 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimensionToday
+2019-09-06 11:59:23,920 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 11:59:23,920 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=3
+2019-09-06 11:59:24,096 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=30, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T115923.468Z, status=0, errorMsg=全部成功}
+2019-09-06 11:59:24,107 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimensionToday
+2019-09-06 11:59:24,107 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.shopPopularGoods100
+2019-09-06 11:59:24,108 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 11:59:24,108 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=0&topN=100
+2019-09-06 11:59:24,226 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742363628, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T115923.628Z}
+2019-09-06 11:59:24,237 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods100: run 1 failed
+2019-09-06 11:59:24,237 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 11:59:24,237 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=0&topN=100
+2019-09-06 11:59:24,353 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742363757, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T115923.757Z}
+2019-09-06 11:59:24,362 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods100: run 2 failed
+2019-09-06 11:59:24,362 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods100: giving up after 2 failures
+2019-09-06 11:59:24,363 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 11:59:24,363 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.shopPopularGoods100
+2019-09-06 11:59:24,363 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Year
+2019-09-06 11:59:24,364 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitHistogramTimeDimension.do]7日收益图
+2019-09-06 11:59:24,364 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitHistogramTimeDimension.do?timeDimension=1
+2019-09-06 11:59:24,483 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data=[{dateTime=2019-08-31, sumAmount=0}, {dateTime=2019-09-01, sumAmount=0}, {dateTime=2019-09-02, sumAmount=0}, {dateTime=2019-09-03, sumAmount=0}, {dateTime=2019-09-04, sumAmount=0}, {dateTime=2019-09-05, sumAmount=0}, {dateTime=2019-09-06, sumAmount=0}], trackId=3c959429-2aef-49ae-902f-c23a50a02ccc, stopWatch=1567742363887, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T115923.887Z}
+2019-09-06 11:59:24,490 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Year
+2019-09-06 11:59:24,491 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Mouth
+2019-09-06 11:59:24,491 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitHistogramTimeDimension.do]7日收益图
+2019-09-06 11:59:24,491 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitHistogramTimeDimension.do?timeDimension=3
+2019-09-06 11:59:24,618 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data=[{dateTime=2019-08-31, sumAmount=0}, {dateTime=2019-09-01, sumAmount=0}, {dateTime=2019-09-02, sumAmount=0}, {dateTime=2019-09-03, sumAmount=0}, {dateTime=2019-09-04, sumAmount=0}, {dateTime=2019-09-05, sumAmount=0}, {dateTime=2019-09-06, sumAmount=0}], trackId=0ebd4054-9897-492a-ac1e-d34f197f98b1, stopWatch=1567742364021, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T115924.021Z}
+2019-09-06 11:59:24,627 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Mouth
+2019-09-06 11:59:24,627 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitRefundTimeDimensionDay
+2019-09-06 11:59:24,627 [INFO] com.demo.common.utils.ProxyUtils - [/xc_empower/benefit/sumBenefitRefundTimeDimension.do]时间维度查询店主累计收益与退款
+2019-09-06 11:59:24,627 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_empower/benefit/sumBenefitRefundTimeDimension.do?timeDimension=3
+2019-09-06 11:59:24,741 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={benefit=[], refund=[]}, trackId=235bb6b1-1475-4cb5-8f48-e194b7926bee, stopWatch=1567742364145, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T115924.145Z}
+2019-09-06 11:59:24,747 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitRefundTimeDimensionDay
+2019-09-06 11:59:24,748 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.top
+2019-09-06 11:59:24,748 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/empower/browse/top.do]浏览轨迹
+2019-09-06 11:59:24,748 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/empower/browse/top.do?start=100
+2019-09-06 11:59:24,852 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, trackId=49372e9c-9faa-41a2-b048-e0de7f220cf9, stopWatch=1567742364254, version=1.0, errorMsg=获取不到热销产品，请刷新重试！, status=599, timestamp=190906T115924.254Z}
+2019-09-06 11:59:24,860 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: run 1 failed
+2019-09-06 11:59:24,861 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/empower/browse/top.do]浏览轨迹
+2019-09-06 11:59:24,861 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/empower/browse/top.do?start=100
+2019-09-06 11:59:24,976 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, trackId=d0305b8e-2a05-4d78-a05b-be772eaaac0b, stopWatch=1567742364380, version=1.0, errorMsg=获取不到热销产品，请刷新重试！, status=599, timestamp=190906T115924.379Z}
+2019-09-06 11:59:24,983 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: run 2 failed
+2019-09-06 11:59:24,984 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: giving up after 2 failures
+2019-09-06 11:59:24,985 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 获取不到热销产品，请刷新重试！
+
+2019-09-06 11:59:24,986 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.top
+2019-09-06 11:59:24,986 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.popularGoods100
+2019-09-06 11:59:24,986 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 11:59:24,986 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=0&topN=100
+2019-09-06 11:59:25,324 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742364728, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T115924.728Z}
+2019-09-06 11:59:25,331 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods100: run 1 failed
+2019-09-06 11:59:25,331 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 11:59:25,331 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=0&topN=100
+2019-09-06 11:59:25,445 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742364846, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T115924.846Z}
+2019-09-06 11:59:25,450 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods100: run 2 failed
+2019-09-06 11:59:25,450 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods100: giving up after 2 failures
+2019-09-06 11:59:25,451 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 11:59:25,451 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.popularGoods100
+2019-09-06 11:59:25,451 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.index
+2019-09-06 11:59:25,452 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/index.do]店铺页资金管理
+2019-09-06 11:59:25,452 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/index.do
+2019-09-06 11:59:25,610 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={estimateAmount=35.0, withdrawalsAmount=0.0, settlementAmount=0.0, todayAmount=0.0}, trackId=c209b5a1-3bce-44e3-966c-3e749ea371e1, stopWatch=1567742365004, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T115925.004Z}
+2019-09-06 11:59:25,620 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.index
+2019-09-06 11:59:25,620 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.list1
+2019-09-06 11:59:25,621 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 11:59:25,621 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=1&start=3&limit=4&type=1&endDateStr=2019-09-06
+2019-09-06 11:59:25,740 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742365144, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T115925.144Z}
+2019-09-06 11:59:25,746 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list1: run 1 failed
+2019-09-06 11:59:25,747 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 11:59:25,747 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=1&start=3&limit=4&type=1&endDateStr=2019-09-06
+2019-09-06 11:59:25,858 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742365262, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T115925.262Z}
+2019-09-06 11:59:25,863 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list1: run 2 failed
+2019-09-06 11:59:25,863 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list1: giving up after 2 failures
+2019-09-06 11:59:25,864 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 11:59:25,864 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.list1
+2019-09-06 11:59:25,864 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.list3
+2019-09-06 11:59:25,865 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 11:59:25,865 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2019-01-05&benefitTypes=3&start=0&limit=5&type=2&endDateStr=2019-09-06
+2019-09-06 11:59:25,982 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742365381, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T115925.381Z}
+2019-09-06 11:59:25,989 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list3: run 1 failed
+2019-09-06 11:59:25,989 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 11:59:25,989 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2019-01-05&benefitTypes=3&start=0&limit=5&type=2&endDateStr=2019-09-06
+2019-09-06 11:59:26,111 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742365514, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T115925.514Z}
+2019-09-06 11:59:26,116 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list3: run 2 failed
+2019-09-06 11:59:26,116 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list3: giving up after 2 failures
+2019-09-06 11:59:26,116 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 11:59:26,117 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.list3
+2019-09-06 11:59:26,117 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefit
+2019-09-06 11:59:26,117 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefit.do]总累计收益
+2019-09-06 11:59:26,117 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefit.do
+2019-09-06 11:59:26,247 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={amount=0.00}, trackId=e642ddbb-df86-4db9-b5a4-b28ce6b0e235, stopWatch=1567742365651, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T115925.651Z}
+2019-09-06 11:59:26,252 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefit
+2019-09-06 11:59:26,253 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimension_Sum
+2019-09-06 11:59:26,253 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 11:59:26,253 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=2
+2019-09-06 11:59:26,387 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=29, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T115925.762Z, status=0, errorMsg=全部成功}
+2019-09-06 11:59:26,392 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimension_Sum
+2019-09-06 11:59:26,393 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimension_Yesterday
+2019-09-06 11:59:26,393 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 11:59:26,393 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=0
+2019-09-06 11:59:26,521 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=25, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T115925.901Z, status=0, errorMsg=全部成功}
+2019-09-06 11:59:26,526 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimension_Yesterday
+2019-09-06 11:59:26,527 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimension_Mouth
+2019-09-06 11:59:26,527 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 11:59:26,527 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=1
+2019-09-06 11:59:26,664 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=27, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T115926.036Z, status=0, errorMsg=全部成功}
+2019-09-06 11:59:26,669 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimension_Mouth
+2019-09-06 11:59:26,670 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.indexV1
+2019-09-06 11:59:26,670 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/indexV1.do]查询店铺首页数据
+2019-09-06 11:59:26,670 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/indexV1.do
+2019-09-06 11:59:26,942 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={yesterday={amount=0.00, orderCount=0, sales=0.00}, total={amount=0.00, orderCount=0, sales=0.00}, month={amount=0.00, orderCount=0, sales=0.00}, today={amount=0.00, orderCount=0, sales=0.00}}, trackId=6e87d55e-5cbd-4d15-8fde-3f96a426530a, stopWatch=1567742366346, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T115926.346Z}
+2019-09-06 11:59:26,947 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.indexV1
+2019-09-06 11:59:26,948 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 11:59:26,948 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 5959
+2019-09-06 11:59:26,948 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 18
+2019-09-06 11:59:26,948 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 7
+2019-09-06 11:59:26,948 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 12:03:27,552 [INFO] com.demo.common.utils.ListenerUtils - --> com.dalingapi.TestBenefit
+2019-09-06 12:03:27,560 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 12:03:27,872 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 12:03:27,873 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=10
+2019-09-06 12:03:29,661 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742608831, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T120328.831Z}
+2019-09-06 12:03:29,910 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 1 failed
+2019-09-06 12:03:29,910 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 12:03:29,910 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=10
+2019-09-06 12:03:30,035 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742609440, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T120329.440Z}
+2019-09-06 12:03:30,050 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 2 failed
+2019-09-06 12:03:30,050 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: giving up after 2 failures
+2019-09-06 12:03:30,055 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 12:03:30,056 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 12:03:30,058 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 12:03:30,058 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 2501
+2019-09-06 12:03:30,058 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 1
+2019-09-06 12:03:30,058 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 1
+2019-09-06 12:03:30,058 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 12:03:53,141 [INFO] com.demo.common.utils.ListenerUtils - --> com.dalingapi.TestBenefit
+2019-09-06 12:03:53,149 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 12:03:53,507 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 12:03:53,507 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=10
+2019-09-06 12:03:55,353 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742634508, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T120354.508Z}
+2019-09-06 12:03:55,622 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 1 failed
+2019-09-06 12:03:55,622 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 12:03:55,622 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=10
+2019-09-06 12:03:55,894 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742635293, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T120355.293Z}
+2019-09-06 12:03:55,917 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 2 failed
+2019-09-06 12:03:55,917 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: giving up after 2 failures
+2019-09-06 12:03:55,926 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 12:03:55,927 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 12:03:55,929 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 12:03:55,929 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 2784
+2019-09-06 12:03:55,929 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 1
+2019-09-06 12:03:55,929 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 1
+2019-09-06 12:03:55,930 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 12:05:33,740 [INFO] com.demo.common.utils.ListenerUtils - --> com.dalingapi.TestBenefit
+2019-09-06 12:05:33,748 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 12:05:34,092 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 12:05:34,093 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=10
+2019-09-06 12:05:35,680 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742734869, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T120534.869Z}
+2019-09-06 12:05:35,912 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 1 failed
+2019-09-06 12:05:35,913 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 12:05:35,913 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=10
+2019-09-06 12:05:36,039 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742735444, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T120535.444Z}
+2019-09-06 12:05:36,052 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 2 failed
+2019-09-06 12:05:36,052 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: giving up after 2 failures
+2019-09-06 12:05:36,056 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 12:05:36,056 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 12:05:36,057 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 12:05:36,057 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 2314
+2019-09-06 12:05:36,057 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 1
+2019-09-06 12:05:36,057 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 1
+2019-09-06 12:05:36,057 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 12:05:56,123 [INFO] com.demo.common.utils.ListenerUtils - --> com.dalingapi.TestBenefit
+2019-09-06 12:05:56,130 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 12:05:56,452 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 12:05:56,452 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=10
+2019-09-06 12:05:57,983 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742757191, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T120557.191Z}
+2019-09-06 12:05:58,214 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 1 failed
+2019-09-06 12:05:58,214 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 12:05:58,214 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=10
+2019-09-06 12:05:58,344 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567742757748, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T120557.748Z}
+2019-09-06 12:05:58,356 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 2 failed
+2019-09-06 12:05:58,356 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: giving up after 2 failures
+2019-09-06 12:05:58,361 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 12:05:58,362 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 12:05:58,362 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 12:05:58,363 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 2236
+2019-09-06 12:05:58,363 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 1
+2019-09-06 12:05:58,363 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 1
+2019-09-06 12:05:58,363 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 12:10:09,192 [INFO] com.demo.common.utils.ListenerUtils - --> com.dalingapi.TestBenefit
+2019-09-06 12:10:09,199 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 12:10:09,519 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 12:10:09,519 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=10
+2019-09-06 12:10:11,116 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567743010300, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T121010.300Z}
+2019-09-06 12:10:11,369 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 1 failed
+2019-09-06 12:10:11,370 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 12:10:11,370 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=10
+2019-09-06 12:10:11,770 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567743010976, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T121010.976Z}
+2019-09-06 12:10:11,790 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 2 failed
+2019-09-06 12:10:11,790 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: giving up after 2 failures
+2019-09-06 12:10:11,794 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 12:10:11,795 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 12:10:11,795 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.popularGoods10
+2019-09-06 12:10:11,796 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 12:10:11,796 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=1&topN=10
+2019-09-06 12:10:12,016 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567743011384, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T121011.384Z}
+2019-09-06 12:10:12,023 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods10: run 1 failed
+2019-09-06 12:10:12,023 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 12:10:12,023 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=1&topN=10
+2019-09-06 12:10:12,261 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567743011668, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T121011.668Z}
+2019-09-06 12:10:12,269 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods10: run 2 failed
+2019-09-06 12:10:12,269 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods10: giving up after 2 failures
+2019-09-06 12:10:12,270 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 12:10:12,270 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.popularGoods10
+2019-09-06 12:10:12,270 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimensionMouth
+2019-09-06 12:10:12,270 [INFO] com.demo.common.utils.ProxyUtils - [/xc_empower/benefit/sumBenefitRefundTimeDimension.do]时间维度查询店主累计收益与退款
+2019-09-06 12:10:12,270 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_empower/benefit/sumBenefitRefundTimeDimension.do?timeDimension=1
+2019-09-06 12:10:12,483 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={benefit=[], refund=[]}, trackId=9a2635a1-b150-480d-86be-8eef3c353be3, stopWatch=1567743011826, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T121011.826Z}
+2019-09-06 12:10:12,490 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimensionMouth
+2019-09-06 12:10:12,491 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimensionToday
+2019-09-06 12:10:12,491 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 12:10:12,491 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=3
+2019-09-06 12:10:12,675 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=31, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T121012.049Z, status=0, errorMsg=全部成功}
+2019-09-06 12:10:12,682 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimensionToday
+2019-09-06 12:10:12,682 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.shopPopularGoods100
+2019-09-06 12:10:12,682 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 12:10:12,682 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=100
+2019-09-06 12:10:12,846 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567743012241, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T121012.241Z}
+2019-09-06 12:10:12,852 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods100: run 1 failed
+2019-09-06 12:10:12,852 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 12:10:12,852 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=100
+2019-09-06 12:10:13,000 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567743012406, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T121012.406Z}
+2019-09-06 12:10:13,007 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods100: run 2 failed
+2019-09-06 12:10:13,007 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods100: giving up after 2 failures
+2019-09-06 12:10:13,008 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 12:10:13,008 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.shopPopularGoods100
+2019-09-06 12:10:13,008 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Year
+2019-09-06 12:10:13,008 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitHistogramTimeDimension.do]7日收益图
+2019-09-06 12:10:13,008 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitHistogramTimeDimension.do?timeDimension=1
+2019-09-06 12:10:13,158 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data=[{dateTime=2019-08-31, sumAmount=0}, {dateTime=2019-09-01, sumAmount=0}, {dateTime=2019-09-02, sumAmount=0}, {dateTime=2019-09-03, sumAmount=0}, {dateTime=2019-09-04, sumAmount=0}, {dateTime=2019-09-05, sumAmount=0}, {dateTime=2019-09-06, sumAmount=0}], trackId=ef28207c-69dc-4e03-a738-0713d84402ec, stopWatch=1567743012556, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T121012.556Z}
+2019-09-06 12:10:13,166 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Year
+2019-09-06 12:10:13,166 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Mouth
+2019-09-06 12:10:13,167 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitHistogramTimeDimension.do]7日收益图
+2019-09-06 12:10:13,167 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitHistogramTimeDimension.do?timeDimension=3
+2019-09-06 12:10:13,522 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data=[{dateTime=2019-08-31, sumAmount=0}, {dateTime=2019-09-01, sumAmount=0}, {dateTime=2019-09-02, sumAmount=0}, {dateTime=2019-09-03, sumAmount=0}, {dateTime=2019-09-04, sumAmount=0}, {dateTime=2019-09-05, sumAmount=0}, {dateTime=2019-09-06, sumAmount=0}], trackId=6095356d-19d0-4ae8-be3a-c4748ac5a7f3, stopWatch=1567743012927, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T121012.927Z}
+2019-09-06 12:10:13,529 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Mouth
+2019-09-06 12:10:13,530 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitRefundTimeDimensionDay
+2019-09-06 12:10:13,530 [INFO] com.demo.common.utils.ProxyUtils - [/xc_empower/benefit/sumBenefitRefundTimeDimension.do]时间维度查询店主累计收益与退款
+2019-09-06 12:10:13,530 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_empower/benefit/sumBenefitRefundTimeDimension.do?timeDimension=3
+2019-09-06 12:10:13,757 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={benefit=[], refund=[]}, trackId=6712a4d0-3185-43ac-bb43-7151bfdf70d9, stopWatch=1567743013165, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T121013.165Z}
+2019-09-06 12:10:13,763 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitRefundTimeDimensionDay
+2019-09-06 12:10:13,763 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.top
+2019-09-06 12:10:13,763 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/empower/browse/top.do]浏览轨迹
+2019-09-06 12:10:13,764 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/empower/browse/top.do?start=100
+2019-09-06 12:10:13,996 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, trackId=499cbd78-c1dd-4122-9246-96061dad2e59, stopWatch=1567743013404, version=1.0, errorMsg=获取不到热销产品，请刷新重试！, status=599, timestamp=190906T121013.404Z}
+2019-09-06 12:10:14,003 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: run 1 failed
+2019-09-06 12:10:14,003 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/empower/browse/top.do]浏览轨迹
+2019-09-06 12:10:14,003 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/empower/browse/top.do?start=100
+2019-09-06 12:10:14,107 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, trackId=dd36420d-7b24-433c-9965-8b2c23e812ce, stopWatch=1567743013514, version=1.0, errorMsg=获取不到热销产品，请刷新重试！, status=599, timestamp=190906T121013.514Z}
+2019-09-06 12:10:14,113 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: run 2 failed
+2019-09-06 12:10:14,113 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: giving up after 2 failures
+2019-09-06 12:10:14,114 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 获取不到热销产品，请刷新重试！
+
+2019-09-06 12:10:14,115 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.top
+2019-09-06 12:10:14,115 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.popularGoods100
+2019-09-06 12:10:14,115 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 12:10:14,115 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=2&topN=100
+2019-09-06 12:10:14,243 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567743013652, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T121013.652Z}
+2019-09-06 12:10:14,250 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods100: run 1 failed
+2019-09-06 12:10:14,251 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 12:10:14,251 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=2&topN=100
+2019-09-06 12:10:14,362 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567743013768, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T121013.768Z}
+2019-09-06 12:10:14,376 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods100: run 2 failed
+2019-09-06 12:10:14,376 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods100: giving up after 2 failures
+2019-09-06 12:10:14,379 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 12:10:14,379 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.popularGoods100
+2019-09-06 12:10:14,380 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.index
+2019-09-06 12:10:14,380 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/index.do]店铺页资金管理
+2019-09-06 12:10:14,380 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/index.do
+2019-09-06 12:10:14,536 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={estimateAmount=35.0, withdrawalsAmount=0.0, settlementAmount=0.0, todayAmount=0.0}, trackId=8a1bd8fa-f277-4b24-8209-ef85b892db02, stopWatch=1567743013939, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T121013.939Z}
+2019-09-06 12:10:14,547 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.index
+2019-09-06 12:10:14,547 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.list1
+2019-09-06 12:10:14,547 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 12:10:14,547 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=1&start=3&limit=4&type=1&endDateStr=2019-09-06
+2019-09-06 12:10:14,662 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567743014071, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T121014.071Z}
+2019-09-06 12:10:14,668 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list1: run 1 failed
+2019-09-06 12:10:14,668 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 12:10:14,668 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=1&start=3&limit=4&type=1&endDateStr=2019-09-06
+2019-09-06 12:10:14,782 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567743014186, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T121014.186Z}
+2019-09-06 12:10:14,788 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list1: run 2 failed
+2019-09-06 12:10:14,788 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list1: giving up after 2 failures
+2019-09-06 12:10:14,789 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 12:10:14,789 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.list1
+2019-09-06 12:10:14,789 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.list3
+2019-09-06 12:10:14,790 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 12:10:14,790 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2019-01-05&benefitTypes=3&start=0&limit=5&type=2&endDateStr=2019-09-06
+2019-09-06 12:10:14,904 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567743014311, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T121014.311Z}
+2019-09-06 12:10:14,911 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list3: run 1 failed
+2019-09-06 12:10:14,912 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 12:10:14,912 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2019-01-05&benefitTypes=3&start=0&limit=5&type=2&endDateStr=2019-09-06
+2019-09-06 12:10:15,029 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567743014434, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T121014.434Z}
+2019-09-06 12:10:15,035 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list3: run 2 failed
+2019-09-06 12:10:15,036 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list3: giving up after 2 failures
+2019-09-06 12:10:15,036 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 12:10:15,036 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.list3
+2019-09-06 12:10:15,037 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefit
+2019-09-06 12:10:15,037 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefit.do]总累计收益
+2019-09-06 12:10:15,037 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefit.do
+2019-09-06 12:10:15,163 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={amount=0.00}, trackId=544fb215-fd53-4258-bff5-8d9cd4d38c8f, stopWatch=1567743014570, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T121014.570Z}
+2019-09-06 12:10:15,168 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefit
+2019-09-06 12:10:15,169 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimension_Sum
+2019-09-06 12:10:15,169 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 12:10:15,169 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=2
+2019-09-06 12:10:15,301 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=28, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T121014.682Z, status=0, errorMsg=全部成功}
+2019-09-06 12:10:15,307 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimension_Sum
+2019-09-06 12:10:15,307 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimension_Yesterday
+2019-09-06 12:10:15,308 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 12:10:15,308 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=0
+2019-09-06 12:10:15,443 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=25, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T121014.826Z, status=0, errorMsg=全部成功}
+2019-09-06 12:10:15,448 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimension_Yesterday
+2019-09-06 12:10:15,449 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimension_Mouth
+2019-09-06 12:10:15,449 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 12:10:15,449 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=1
+2019-09-06 12:10:15,587 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=27, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T121014.968Z, status=0, errorMsg=全部成功}
+2019-09-06 12:10:15,593 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimension_Mouth
+2019-09-06 12:10:15,593 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.indexV1
+2019-09-06 12:10:15,593 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/indexV1.do]查询店铺首页数据
+2019-09-06 12:10:15,593 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/indexV1.do
+2019-09-06 12:10:15,866 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={yesterday={amount=0.00, orderCount=0, sales=0.00}, total={amount=0.00, orderCount=0, sales=0.00}, month={amount=0.00, orderCount=0, sales=0.00}, today={amount=0.00, orderCount=0, sales=0.00}}, trackId=8bc547f2-d5d0-43a2-9a26-e1898c9b5117, stopWatch=1567743015267, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T121015.267Z}
+2019-09-06 12:10:15,871 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.indexV1
+2019-09-06 12:10:15,872 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 12:10:15,872 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 6677
+2019-09-06 12:10:15,872 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 18
+2019-09-06 12:10:15,872 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 7
+2019-09-06 12:10:15,872 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 12:15:34,378 [INFO] com.demo.common.utils.ListenerUtils - --> com.dalingapi.TestBenefit
+2019-09-06 12:15:34,384 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.list1
+2019-09-06 12:15:34,784 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list1: run 1 failed
+2019-09-06 12:15:34,785 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list1: run 2 failed
+2019-09-06 12:15:34,785 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list1: giving up after 2 failures
+2019-09-06 12:15:34,790 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 方法list中缺少参数注解，如@Param
+2019-09-06 12:15:34,791 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.list1
+2019-09-06 12:15:34,793 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 12:15:34,793 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 412
+2019-09-06 12:15:34,793 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 1
+2019-09-06 12:15:34,793 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 1
+2019-09-06 12:15:34,793 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 12:16:01,791 [INFO] com.demo.common.utils.ListenerUtils - --> com.dalingapi.TestBenefit
+2019-09-06 12:16:01,801 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.list1
+2019-09-06 12:16:02,144 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 12:16:02,144 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=1&start=3&limit=4&type=1&endDateStr=2019-09-06
+2019-09-06 12:16:03,808 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567743362956, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T121602.956Z}
+2019-09-06 12:16:04,036 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list1: run 1 failed
+2019-09-06 12:16:04,036 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 12:16:04,037 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=1&start=3&limit=4&type=1&endDateStr=2019-09-06
+2019-09-06 12:16:04,165 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567743363574, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T121603.574Z}
+2019-09-06 12:16:04,179 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list1: run 2 failed
+2019-09-06 12:16:04,179 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list1: giving up after 2 failures
+2019-09-06 12:16:04,183 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 12:16:04,183 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.list1
+2019-09-06 12:16:04,185 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 12:16:04,185 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 2390
+2019-09-06 12:16:04,185 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 1
+2019-09-06 12:16:04,185 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 1
+2019-09-06 12:16:04,185 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 12:22:12,452 [INFO] com.demo.common.utils.ListenerUtils - --> com.dalingapi.TestBenefit
+2019-09-06 12:22:12,461 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.top
+2019-09-06 12:22:12,810 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/empower/browse/top.do]浏览轨迹
+2019-09-06 12:22:12,810 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/empower/browse/top.do?start=100
+2019-09-06 12:22:14,710 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, trackId=c81ac6e2-96b5-4283-8ee0-a4036cfe8c71, stopWatch=1567743733867, version=1.0, errorMsg=获取不到热销产品，请刷新重试！, status=599, timestamp=190906T122213.867Z}
+2019-09-06 12:22:14,982 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: run 1 failed
+2019-09-06 12:22:14,982 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/empower/browse/top.do]浏览轨迹
+2019-09-06 12:22:14,982 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/empower/browse/top.do?start=100
+2019-09-06 12:22:15,190 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, trackId=a1ed02b4-616e-42f2-9422-66c975771437, stopWatch=1567743734574, version=1.0, errorMsg=获取不到热销产品，请刷新重试！, status=599, timestamp=190906T122214.574Z}
+2019-09-06 12:22:15,201 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: run 2 failed
+2019-09-06 12:22:15,201 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: giving up after 2 failures
+2019-09-06 12:22:15,205 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 获取不到热销产品，请刷新重试！
+
+2019-09-06 12:22:15,206 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.top
+2019-09-06 12:22:15,207 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 12:22:15,207 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 2752
+2019-09-06 12:22:15,207 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 1
+2019-09-06 12:22:15,207 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 1
+2019-09-06 12:22:15,207 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 12:22:38,108 [INFO] com.demo.common.utils.ListenerUtils - --> com.dalingapi.TestBenefit
+2019-09-06 12:22:38,116 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.top
+2019-09-06 12:22:38,437 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/empower/browse/top.do]浏览轨迹
+2019-09-06 12:22:38,438 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/empower/browse/top.do?start=100
+2019-09-06 12:22:40,092 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, trackId=ad364cb5-aa8c-46a7-bdde-9f75e370203d, stopWatch=1567743759226, version=1.0, errorMsg=获取不到热销产品，请刷新重试！, status=599, timestamp=190906T122239.226Z}
+2019-09-06 12:22:40,340 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: run 1 failed
+2019-09-06 12:22:40,340 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/empower/browse/top.do]浏览轨迹
+2019-09-06 12:22:40,340 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/empower/browse/top.do?start=100
+2019-09-06 12:22:40,457 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, trackId=1192ef2a-7b7c-4ade-866e-0f2fb3436504, stopWatch=1567743759868, version=1.0, errorMsg=获取不到热销产品，请刷新重试！, status=599, timestamp=190906T122239.868Z}
+2019-09-06 12:22:40,471 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: run 2 failed
+2019-09-06 12:22:40,471 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: giving up after 2 failures
+2019-09-06 12:22:40,476 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 获取不到热销产品，请刷新重试！
+
+2019-09-06 12:22:40,477 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.top
+2019-09-06 12:22:40,478 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 12:22:40,478 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 2367
+2019-09-06 12:22:40,478 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 1
+2019-09-06 12:22:40,478 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 1
+2019-09-06 12:22:40,479 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 12:30:02,894 [INFO] com.demo.common.utils.ListenerUtils - --> com.dalingapi.TestBenefit
+2019-09-06 12:30:02,901 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.top
+2019-09-06 12:30:03,285 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/empower/browse/top.do]浏览轨迹
+2019-09-06 12:30:03,285 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/empower/browse/top.do?start=100
+2019-09-06 12:30:05,149 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, trackId=2e3fbebb-7083-4e40-b74f-a3fba1b426f0, stopWatch=1567744204319, version=1.0, errorMsg=获取不到热销产品，请刷新重试！, status=599, timestamp=190906T123004.319Z}
+2019-09-06 12:30:05,404 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: run 1 failed
+2019-09-06 12:30:05,404 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/empower/browse/top.do]浏览轨迹
+2019-09-06 12:30:05,404 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/empower/browse/top.do?start=100
+2019-09-06 12:30:05,693 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, trackId=3b179c18-e674-4e9d-9d95-a1998a5bb0e4, stopWatch=1567744205084, version=1.0, errorMsg=获取不到热销产品，请刷新重试！, status=599, timestamp=190906T123005.084Z}
+2019-09-06 12:30:05,704 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: run 2 failed
+2019-09-06 12:30:05,704 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.top: giving up after 2 failures
+2019-09-06 12:30:05,708 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path status doesn't match.
+Expected: iterable containing [<599>]
+  Actual: 599
+
+2019-09-06 12:30:05,708 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.top
+2019-09-06 12:30:05,709 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 12:30:05,709 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 2811
+2019-09-06 12:30:05,709 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 1
+2019-09-06 12:30:05,709 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 1
+2019-09-06 12:30:05,709 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 12:31:47,233 [INFO] com.demo.common.utils.ListenerUtils - --> com.dalingapi.TestBenefit
+2019-09-06 12:31:47,239 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.top
+2019-09-06 12:31:47,580 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/empower/browse/top.do]浏览轨迹
+2019-09-06 12:31:47,580 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/empower/browse/top.do?start=100
+2019-09-06 12:31:49,297 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, trackId=93fff6c0-f69c-4894-ac64-11ffd5bc0676, stopWatch=1567744308455, version=1.0, errorMsg=获取不到热销产品，请刷新重试！, status=599, timestamp=190906T123148.455Z}
+2019-09-06 12:31:49,572 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.top
+2019-09-06 12:31:49,573 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : true
+2019-09-06 12:31:49,573 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 2338
+2019-09-06 12:31:49,574 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 1
+2019-09-06 12:31:49,574 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 0
+2019-09-06 12:31:49,574 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 12:32:19,475 [INFO] com.demo.common.utils.ListenerUtils - --> com.dalingapi.TestBenefit
+2019-09-06 12:32:19,483 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 12:32:19,858 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 12:32:19,858 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=10
+2019-09-06 12:32:21,938 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567744341115, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T123221.115Z}
+2019-09-06 12:32:22,280 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 1 failed
+2019-09-06 12:32:22,284 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 12:32:22,284 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=10
+2019-09-06 12:32:22,668 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567744342065, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T123222.065Z}
+2019-09-06 12:32:22,714 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 2 failed
+2019-09-06 12:32:22,714 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: giving up after 2 failures
+2019-09-06 12:32:22,735 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 12:32:22,737 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 12:32:22,738 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.popularGoods10
+2019-09-06 12:32:22,740 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 12:32:22,740 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=1&topN=10
+2019-09-06 12:32:23,059 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567744342450, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T123222.450Z}
+2019-09-06 12:32:23,084 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods10: run 1 failed
+2019-09-06 12:32:23,085 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 12:32:23,085 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=1&topN=10
+2019-09-06 12:32:23,312 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567744342691, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T123222.691Z}
+2019-09-06 12:32:23,340 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods10: run 2 failed
+2019-09-06 12:32:23,340 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods10: giving up after 2 failures
+2019-09-06 12:32:23,345 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 12:32:23,346 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.popularGoods10
+2019-09-06 12:32:23,347 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimensionMouth
+2019-09-06 12:32:23,348 [INFO] com.demo.common.utils.ProxyUtils - [/xc_empower/benefit/sumBenefitRefundTimeDimension.do]时间维度查询店主累计收益与退款
+2019-09-06 12:32:23,348 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_empower/benefit/sumBenefitRefundTimeDimension.do?timeDimension=1
+2019-09-06 12:32:23,710 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={benefit=[], refund=[]}, trackId=facd8c4c-981f-49d3-a362-c80b096a5fc6, stopWatch=1567744343039, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T123223.039Z}
+2019-09-06 12:32:23,732 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimensionMouth
+2019-09-06 12:32:23,733 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimensionToday
+2019-09-06 12:32:23,734 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 12:32:23,734 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=3
+2019-09-06 12:32:24,104 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=29, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T123223.484Z, status=0, errorMsg=全部成功}
+2019-09-06 12:32:24,131 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimensionToday
+2019-09-06 12:32:24,131 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.shopPopularGoods100
+2019-09-06 12:32:24,132 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 12:32:24,133 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=100
+2019-09-06 12:32:24,356 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567744343758, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T123223.758Z}
+2019-09-06 12:32:24,383 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods100: run 1 failed
+2019-09-06 12:32:24,383 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 12:32:24,383 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=100
+2019-09-06 12:32:24,507 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567744343922, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T123223.922Z}
+2019-09-06 12:32:24,520 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods100: run 2 failed
+2019-09-06 12:32:24,520 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods100: giving up after 2 failures
+2019-09-06 12:32:24,522 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 12:32:24,522 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.shopPopularGoods100
+2019-09-06 12:32:24,523 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Year
+2019-09-06 12:32:24,523 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitHistogramTimeDimension.do]7日收益图
+2019-09-06 12:32:24,523 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitHistogramTimeDimension.do?timeDimension=1
+2019-09-06 12:32:24,646 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data=[{dateTime=2019-08-31, sumAmount=0}, {dateTime=2019-09-01, sumAmount=0}, {dateTime=2019-09-02, sumAmount=0}, {dateTime=2019-09-03, sumAmount=0}, {dateTime=2019-09-04, sumAmount=0}, {dateTime=2019-09-05, sumAmount=0}, {dateTime=2019-09-06, sumAmount=0}], trackId=219cdf58-12c5-47a7-b3ae-4d1935a123cd, stopWatch=1567744344063, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T123224.063Z}
+2019-09-06 12:32:24,652 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Year
+2019-09-06 12:32:24,652 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Mouth
+2019-09-06 12:32:24,653 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitHistogramTimeDimension.do]7日收益图
+2019-09-06 12:32:24,653 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitHistogramTimeDimension.do?timeDimension=3
+2019-09-06 12:32:24,771 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data=[{dateTime=2019-08-31, sumAmount=0}, {dateTime=2019-09-01, sumAmount=0}, {dateTime=2019-09-02, sumAmount=0}, {dateTime=2019-09-03, sumAmount=0}, {dateTime=2019-09-04, sumAmount=0}, {dateTime=2019-09-05, sumAmount=0}, {dateTime=2019-09-06, sumAmount=0}], trackId=b2203b4b-df80-487e-95f5-4ede8e59ff4c, stopWatch=1567744344187, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T123224.187Z}
+2019-09-06 12:32:24,780 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Mouth
+2019-09-06 12:32:24,780 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitRefundTimeDimensionDay
+2019-09-06 12:32:24,780 [INFO] com.demo.common.utils.ProxyUtils - [/xc_empower/benefit/sumBenefitRefundTimeDimension.do]时间维度查询店主累计收益与退款
+2019-09-06 12:32:24,780 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_empower/benefit/sumBenefitRefundTimeDimension.do?timeDimension=3
+2019-09-06 12:32:24,893 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={benefit=[], refund=[]}, trackId=05a2b2fb-362d-4ad7-9cfc-fe5a49e99bdf, stopWatch=1567744344311, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T123224.311Z}
+2019-09-06 12:32:24,899 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitRefundTimeDimensionDay
+2019-09-06 12:32:24,899 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.top
+2019-09-06 12:32:24,899 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/empower/browse/top.do]浏览轨迹
+2019-09-06 12:32:24,899 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/empower/browse/top.do?start=100
+2019-09-06 12:32:25,000 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, trackId=5e9e45e3-98a7-49ee-9ff4-413d13da684d, stopWatch=1567744344417, version=1.0, errorMsg=获取不到热销产品，请刷新重试！, status=599, timestamp=190906T123224.417Z}
+2019-09-06 12:32:25,008 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.top
+2019-09-06 12:32:25,008 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.popularGoods100
+2019-09-06 12:32:25,008 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 12:32:25,008 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=2&topN=100
+2019-09-06 12:32:25,122 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567744344540, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T123224.540Z}
+2019-09-06 12:32:25,130 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods100: run 1 failed
+2019-09-06 12:32:25,130 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 12:32:25,130 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=2&topN=100
+2019-09-06 12:32:25,262 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567744344680, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T123224.680Z}
+2019-09-06 12:32:25,269 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods100: run 2 failed
+2019-09-06 12:32:25,269 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods100: giving up after 2 failures
+2019-09-06 12:32:25,270 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 12:32:25,270 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.popularGoods100
+2019-09-06 12:32:25,271 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.index
+2019-09-06 12:32:25,271 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/index.do]店铺页资金管理
+2019-09-06 12:32:25,271 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/index.do
+2019-09-06 12:32:25,420 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={estimateAmount=35.0, withdrawalsAmount=0.0, settlementAmount=0.0, todayAmount=0.0}, trackId=3020e7e0-5630-443e-b51a-a814ddb4a265, stopWatch=1567744344833, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T123224.833Z}
+2019-09-06 12:32:25,428 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.index
+2019-09-06 12:32:25,428 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.list1
+2019-09-06 12:32:25,429 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 12:32:25,429 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=1&start=3&limit=4&type=1&endDateStr=2019-09-06
+2019-09-06 12:32:25,554 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567744344971, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T123224.971Z}
+2019-09-06 12:32:25,565 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list1: run 1 failed
+2019-09-06 12:32:25,565 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 12:32:25,565 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=1&start=3&limit=4&type=1&endDateStr=2019-09-06
+2019-09-06 12:32:25,688 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567744345092, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T123225.092Z}
+2019-09-06 12:32:25,693 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list1: run 2 failed
+2019-09-06 12:32:25,693 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list1: giving up after 2 failures
+2019-09-06 12:32:25,694 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 12:32:25,694 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.list1
+2019-09-06 12:32:25,694 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.list3
+2019-09-06 12:32:25,694 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 12:32:25,694 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2019-01-05&benefitTypes=3&start=0&limit=5&type=2&endDateStr=2019-09-06
+2019-09-06 12:32:25,804 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567744345221, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T123225.221Z}
+2019-09-06 12:32:25,808 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list3: run 1 failed
+2019-09-06 12:32:25,809 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 12:32:25,809 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2019-01-05&benefitTypes=3&start=0&limit=5&type=2&endDateStr=2019-09-06
+2019-09-06 12:32:25,914 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567744345332, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T123225.332Z}
+2019-09-06 12:32:25,921 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list3: run 2 failed
+2019-09-06 12:32:25,921 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list3: giving up after 2 failures
+2019-09-06 12:32:25,923 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 12:32:25,923 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.list3
+2019-09-06 12:32:25,923 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefit
+2019-09-06 12:32:25,923 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefit.do]总累计收益
+2019-09-06 12:32:25,923 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefit.do
+2019-09-06 12:32:26,057 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={amount=0.00}, trackId=e34f8c6c-ad6c-40ae-bb93-aa7a453f6b38, stopWatch=1567744345474, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T123225.474Z}
+2019-09-06 12:32:26,064 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefit
+2019-09-06 12:32:26,064 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimension_Sum
+2019-09-06 12:32:26,064 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 12:32:26,065 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=2
+2019-09-06 12:32:26,198 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=27, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T123225.589Z, status=0, errorMsg=全部成功}
+2019-09-06 12:32:26,204 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimension_Sum
+2019-09-06 12:32:26,204 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimension_Yesterday
+2019-09-06 12:32:26,205 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 12:32:26,205 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=0
+2019-09-06 12:32:26,336 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=26, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T123225.729Z, status=0, errorMsg=全部成功}
+2019-09-06 12:32:26,341 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimension_Yesterday
+2019-09-06 12:32:26,341 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimension_Mouth
+2019-09-06 12:32:26,342 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 12:32:26,342 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=1
+2019-09-06 12:32:26,475 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=22, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T123225.870Z, status=0, errorMsg=全部成功}
+2019-09-06 12:32:26,480 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimension_Mouth
+2019-09-06 12:32:26,481 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.indexV1
+2019-09-06 12:32:26,481 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/indexV1.do]查询店铺首页数据
+2019-09-06 12:32:26,481 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/indexV1.do
+2019-09-06 12:32:26,781 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={yesterday={amount=0.00, orderCount=0, sales=0.00}, total={amount=0.00, orderCount=0, sales=0.00}, month={amount=0.00, orderCount=0, sales=0.00}, today={amount=0.00, orderCount=0, sales=0.00}}, trackId=0bc72a0f-f2ba-4bd0-b05d-7547eef3e334, stopWatch=1567744346199, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T123226.199Z}
+2019-09-06 12:32:26,787 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.indexV1
+2019-09-06 12:32:26,788 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 12:32:26,788 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 7309
+2019-09-06 12:32:26,788 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 18
+2019-09-06 12:32:26,788 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 6
+2019-09-06 12:32:26,788 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 13:22:50,628 [INFO] com.demo.common.utils.ListenerUtils - --> com.demo.douban.TestMovieApi
+2019-09-06 13:22:50,635 [INFO] com.demo.common.utils.ListenerUtils - ----> com.demo.douban.TestMovieApi.testTop250
+2019-09-06 13:22:50,984 [INFO] com.demo.common.utils.ProxyUtils - [/top250]豆瓣电影 top 250
+2019-09-06 13:22:50,984 [INFO] com.demo.common.utils.HttpUtils - [get]https://www.douban.com//top250?start=0&count=1
+2019-09-06 13:22:53,212 [INFO] com.demo.common.utils.HttpUtils - [404]null404 Not Found
+        body{font-family:Arial,Helvetica,sans-serif;font-size:14px;}
+        h1{font-size:25px;margin:25px 0 10px 0;}
+    豆瓣oubanNot Found你要的东西不在这, 到别处看看吧。
+2019-09-06 13:22:53,308 [INFO] com.demo.common.utils.RetryUtils - com.demo.douban.TestMovieApi.testTop250: run 1 failed
+2019-09-06 13:22:53,309 [INFO] com.demo.common.utils.ProxyUtils - [/top250]豆瓣电影 top 250
+2019-09-06 13:22:53,309 [INFO] com.demo.common.utils.HttpUtils - [get]https://www.douban.com//top250?start=0&count=1
+2019-09-06 13:22:53,459 [INFO] com.demo.common.utils.HttpUtils - [404]null404 Not Found
+        body{font-family:Arial,Helvetica,sans-serif;font-size:14px;}
+        h1{font-size:25px;margin:25px 0 10px 0;}
+    豆瓣oubanNot Found你要的东西不在这, 到别处看看吧。
+2019-09-06 13:22:53,475 [INFO] com.demo.common.utils.RetryUtils - com.demo.douban.TestMovieApi.testTop250: run 2 failed
+2019-09-06 13:22:53,475 [INFO] com.demo.common.utils.RetryUtils - com.demo.douban.TestMovieApi.testTop250: giving up after 2 failures
+2019-09-06 13:22:53,479 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+XML path subjects[0].title doesn't match.
+Expected: 肖申克的救赎
+  Actual: 
+
+2019-09-06 13:22:53,480 [INFO] com.demo.common.utils.ListenerUtils - <---- com.demo.douban.TestMovieApi.testTop250
+2019-09-06 13:22:53,480 [INFO] com.demo.common.utils.ListenerUtils - ----> com.demo.douban.TestMovieApi.testCelebrity
+2019-09-06 13:22:53,482 [INFO] com.demo.common.utils.ProxyUtils - [ /celebrity/1031931]影人条目信息
+2019-09-06 13:22:53,482 [INFO] com.demo.common.utils.HttpUtils - [get]https://www.douban.com/ /celebrity/1031931
+2019-09-06 13:22:53,620 [INFO] com.demo.common.utils.HttpUtils - [404]null404 Not Found
+        body{font-family:Arial,Helvetica,sans-serif;font-size:14px;}
+        h1{font-size:25px;margin:25px 0 10px 0;}
+    豆瓣oubanNot Found你要的东西不在这, 到别处看看吧。
+2019-09-06 13:22:53,627 [INFO] com.demo.common.utils.ListenerUtils - <---- com.demo.douban.TestMovieApi.testCelebrity
+2019-09-06 13:22:53,628 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 13:22:53,628 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 2997
+2019-09-06 13:22:53,628 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 2
+2019-09-06 13:22:53,628 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 1
+2019-09-06 13:22:53,628 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 13:23:16,496 [INFO] com.demo.common.utils.ListenerUtils - --> com.demo.douban.TestMovieApi
+2019-09-06 13:23:16,506 [INFO] com.demo.common.utils.ListenerUtils - ----> com.demo.douban.TestMovieApi.testTop250
+2019-09-06 13:23:16,891 [INFO] com.demo.common.utils.ProxyUtils - [/top250]豆瓣电影 top 250
+2019-09-06 13:23:16,891 [INFO] com.demo.common.utils.HttpUtils - [get]https://www.douban.com/top250?start=0&count=1
+2019-09-06 13:23:18,786 [INFO] com.demo.common.utils.HttpUtils - [404]null404 Not Found
+        body{font-family:Arial,Helvetica,sans-serif;font-size:14px;}
+        h1{font-size:25px;margin:25px 0 10px 0;}
+    豆瓣oubanNot Found你要的东西不在这, 到别处看看吧。
+2019-09-06 13:23:18,878 [INFO] com.demo.common.utils.RetryUtils - com.demo.douban.TestMovieApi.testTop250: run 1 failed
+2019-09-06 13:23:18,878 [INFO] com.demo.common.utils.ProxyUtils - [/top250]豆瓣电影 top 250
+2019-09-06 13:23:18,878 [INFO] com.demo.common.utils.HttpUtils - [get]https://www.douban.com/top250?start=0&count=1
+2019-09-06 13:23:18,998 [INFO] com.demo.common.utils.HttpUtils - [404]null404 Not Found
+        body{font-family:Arial,Helvetica,sans-serif;font-size:14px;}
+        h1{font-size:25px;margin:25px 0 10px 0;}
+    豆瓣oubanNot Found你要的东西不在这, 到别处看看吧。
+2019-09-06 13:23:19,013 [INFO] com.demo.common.utils.RetryUtils - com.demo.douban.TestMovieApi.testTop250: run 2 failed
+2019-09-06 13:23:19,013 [INFO] com.demo.common.utils.RetryUtils - com.demo.douban.TestMovieApi.testTop250: giving up after 2 failures
+2019-09-06 13:23:19,017 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+XML path subjects[0].title doesn't match.
+Expected: 肖申克的救赎
+  Actual: 
+
+2019-09-06 13:23:19,018 [INFO] com.demo.common.utils.ListenerUtils - <---- com.demo.douban.TestMovieApi.testTop250
+2019-09-06 13:23:19,018 [INFO] com.demo.common.utils.ListenerUtils - ----> com.demo.douban.TestMovieApi.testCelebrity
+2019-09-06 13:23:19,019 [INFO] com.demo.common.utils.ProxyUtils - [ /celebrity/1031931]影人条目信息
+2019-09-06 13:23:19,019 [INFO] com.demo.common.utils.HttpUtils - [get]https://www.douban.com /celebrity/1031931
+2019-09-06 13:23:19,120 [INFO] com.demo.common.utils.HttpUtils - [404]null404 Not Found
+        body{font-family:Arial,Helvetica,sans-serif;font-size:14px;}
+        h1{font-size:25px;margin:25px 0 10px 0;}
+    豆瓣oubanNot Found你要的东西不在这, 到别处看看吧。
+2019-09-06 13:23:19,127 [INFO] com.demo.common.utils.ListenerUtils - <---- com.demo.douban.TestMovieApi.testCelebrity
+2019-09-06 13:23:19,128 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 13:23:19,128 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 2628
+2019-09-06 13:23:19,129 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 2
+2019-09-06 13:23:19,129 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 1
+2019-09-06 13:23:19,129 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 14:03:07,729 [INFO] com.demo.common.utils.ListenerUtils - --> com.demo.douban.TestMovieApi
+2019-09-06 14:03:07,736 [INFO] com.demo.common.utils.ListenerUtils - ----> com.demo.douban.TestMovieApi.testTop250
+2019-09-06 14:03:08,067 [INFO] com.demo.common.utils.ProxyUtils - [/top250]豆瓣电影 top 250
+2019-09-06 14:03:08,067 [INFO] com.demo.common.utils.HttpUtils - [get]http://api.douban.com/v2/movie/top250?start=0&count=1
+2019-09-06 14:03:09,639 [INFO] com.demo.common.utils.HttpUtils - [403]{msg=invalid_apikey, request=GET /v2/movie/top250, code=104}
+2019-09-06 14:03:09,923 [INFO] com.demo.common.utils.RetryUtils - com.demo.douban.TestMovieApi.testTop250: run 1 failed
+2019-09-06 14:03:09,923 [INFO] com.demo.common.utils.ProxyUtils - [/top250]豆瓣电影 top 250
+2019-09-06 14:03:09,923 [INFO] com.demo.common.utils.HttpUtils - [get]http://api.douban.com/v2/movie/top250?start=0&count=1
+2019-09-06 14:03:10,011 [INFO] com.demo.common.utils.HttpUtils - [403]{msg=invalid_apikey, request=GET /v2/movie/top250, code=104}
+2019-09-06 14:03:10,024 [INFO] com.demo.common.utils.RetryUtils - com.demo.douban.TestMovieApi.testTop250: run 2 failed
+2019-09-06 14:03:10,024 [INFO] com.demo.common.utils.RetryUtils - com.demo.douban.TestMovieApi.testTop250: giving up after 2 failures
+2019-09-06 14:03:10,029 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : Cannot invoke method getAt() on null object
+2019-09-06 14:03:10,030 [INFO] com.demo.common.utils.ListenerUtils - <---- com.demo.douban.TestMovieApi.testTop250
+2019-09-06 14:03:10,030 [INFO] com.demo.common.utils.ListenerUtils - ----> com.demo.douban.TestMovieApi.testCelebrity
+2019-09-06 14:03:10,031 [INFO] com.demo.common.utils.ProxyUtils - [ /celebrity/1031931]影人条目信息
+2019-09-06 14:03:10,031 [INFO] com.demo.common.utils.HttpUtils - [get]http://api.douban.com/v2/movie /celebrity/1031931
+2019-09-06 14:03:10,105 [INFO] com.demo.common.utils.HttpUtils - [403]{msg=invalid_apikey, request=GET /v2/movie/celebrity/1031931, code=104}
+2019-09-06 14:03:10,107 [INFO] com.demo.common.utils.ListenerUtils - <---- com.demo.douban.TestMovieApi.testCelebrity
+2019-09-06 14:03:10,108 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 14:03:10,108 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 2377
+2019-09-06 14:03:10,108 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 2
+2019-09-06 14:03:10,108 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 1
+2019-09-06 14:03:10,108 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 14:07:49,588 [INFO] com.demo.common.utils.ListenerUtils - --> com.demo.douban.TestMovieApi
+2019-09-06 14:07:49,595 [INFO] com.demo.common.utils.ListenerUtils - ----> com.demo.douban.TestMovieApi.testTop250
+2019-09-06 14:07:49,934 [INFO] com.demo.common.utils.ProxyUtils - [/top250]豆瓣电影 top 250
+2019-09-06 14:07:49,934 [INFO] com.demo.common.utils.HttpUtils - [get]http://api.douban.com/v2/movie/top250?start=0&count=1
+2019-09-06 14:07:51,526 [INFO] com.demo.common.utils.HttpUtils - [403]{msg=invalid_apikey, request=GET /v2/movie/top250, code=104}
+2019-09-06 14:07:51,813 [INFO] com.demo.common.utils.RetryUtils - com.demo.douban.TestMovieApi.testTop250: run 1 failed
+2019-09-06 14:07:51,814 [INFO] com.demo.common.utils.ProxyUtils - [/top250]豆瓣电影 top 250
+2019-09-06 14:07:51,814 [INFO] com.demo.common.utils.HttpUtils - [get]http://api.douban.com/v2/movie/top250?start=0&count=1
+2019-09-06 14:07:51,866 [INFO] com.demo.common.utils.HttpUtils - [403]{msg=invalid_apikey, request=GET /v2/movie/top250, code=104}
+2019-09-06 14:07:51,879 [INFO] com.demo.common.utils.RetryUtils - com.demo.douban.TestMovieApi.testTop250: run 2 failed
+2019-09-06 14:07:51,879 [INFO] com.demo.common.utils.RetryUtils - com.demo.douban.TestMovieApi.testTop250: giving up after 2 failures
+2019-09-06 14:07:51,884 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : Cannot invoke method getAt() on null object
+2019-09-06 14:07:51,884 [INFO] com.demo.common.utils.ListenerUtils - <---- com.demo.douban.TestMovieApi.testTop250
+2019-09-06 14:07:51,885 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 14:07:51,885 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 2293
+2019-09-06 14:07:51,885 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 1
+2019-09-06 14:07:51,886 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 1
+2019-09-06 14:07:51,886 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 14:08:27,993 [INFO] com.demo.common.utils.ListenerUtils - --> com.demo.douban.TestMovieApi
+2019-09-06 14:08:28,001 [INFO] com.demo.common.utils.ListenerUtils - ----> com.demo.douban.TestMovieApi.testTop250
+2019-09-06 14:08:28,316 [INFO] com.demo.common.utils.ProxyUtils - [/top250]豆瓣电影 top 250
+2019-09-06 14:08:28,317 [INFO] com.demo.common.utils.HttpUtils - [get]http://api.douban.com/v2/movie/top250?start=0&count=1
+2019-09-06 14:08:29,720 [INFO] com.demo.common.utils.HttpUtils - [403]{msg=invalid_apikey, request=GET /v2/movie/top250, code=104}
+2019-09-06 14:08:30,015 [INFO] com.demo.common.utils.RetryUtils - com.demo.douban.TestMovieApi.testTop250: run 1 failed
+2019-09-06 14:08:30,015 [INFO] com.demo.common.utils.ProxyUtils - [/top250]豆瓣电影 top 250
+2019-09-06 14:08:30,015 [INFO] com.demo.common.utils.HttpUtils - [get]http://api.douban.com/v2/movie/top250?start=0&count=1
+2019-09-06 14:08:30,087 [INFO] com.demo.common.utils.HttpUtils - [403]{msg=invalid_apikey, request=GET /v2/movie/top250, code=104}
+2019-09-06 14:08:30,103 [INFO] com.demo.common.utils.RetryUtils - com.demo.douban.TestMovieApi.testTop250: run 2 failed
+2019-09-06 14:08:30,103 [INFO] com.demo.common.utils.RetryUtils - com.demo.douban.TestMovieApi.testTop250: giving up after 2 failures
+2019-09-06 14:08:30,108 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : Cannot invoke method getAt() on null object
+2019-09-06 14:08:30,108 [INFO] com.demo.common.utils.ListenerUtils - <---- com.demo.douban.TestMovieApi.testTop250
+2019-09-06 14:08:30,109 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 14:08:30,109 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 2112
+2019-09-06 14:08:30,109 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 1
+2019-09-06 14:08:30,109 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 1
+2019-09-06 14:08:30,109 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 14:09:35,819 [INFO] com.demo.common.utils.ListenerUtils - --> com.demo.douban.TestMovieApi
+2019-09-06 14:09:35,826 [INFO] com.demo.common.utils.ListenerUtils - ----> com.demo.douban.TestMovieApi.testTop250
+2019-09-06 14:09:36,181 [INFO] com.demo.common.utils.ProxyUtils - [/top250]豆瓣电影 top 250
+2019-09-06 14:09:36,181 [INFO] com.demo.common.utils.HttpUtils - [get]http://api.douban.com/v2/movie/top250?start=0&count=1
+2019-09-06 14:09:37,616 [INFO] com.demo.common.utils.HttpUtils - [403]{msg=invalid_apikey, request=GET /v2/movie/top250, code=104}
+2019-09-06 14:09:37,945 [INFO] com.demo.common.utils.RetryUtils - com.demo.douban.TestMovieApi.testTop250: run 1 failed
+2019-09-06 14:09:37,946 [INFO] com.demo.common.utils.ProxyUtils - [/top250]豆瓣电影 top 250
+2019-09-06 14:09:37,946 [INFO] com.demo.common.utils.HttpUtils - [get]http://api.douban.com/v2/movie/top250?start=0&count=1
+2019-09-06 14:09:37,986 [INFO] com.demo.common.utils.HttpUtils - [403]{msg=invalid_apikey, request=GET /v2/movie/top250, code=104}
+2019-09-06 14:09:37,994 [INFO] com.demo.common.utils.RetryUtils - com.demo.douban.TestMovieApi.testTop250: run 2 failed
+2019-09-06 14:09:37,994 [INFO] com.demo.common.utils.RetryUtils - com.demo.douban.TestMovieApi.testTop250: giving up after 2 failures
+2019-09-06 14:09:37,999 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : Cannot invoke method getAt() on null object
+2019-09-06 14:09:38,000 [INFO] com.demo.common.utils.ListenerUtils - <---- com.demo.douban.TestMovieApi.testTop250
+2019-09-06 14:09:38,001 [INFO] com.demo.common.utils.ListenerUtils - ----> com.demo.douban.TestMovieApi.testCelebrity
+2019-09-06 14:09:38,002 [INFO] com.demo.common.utils.ProxyUtils - [ /celebrity/1031931]影人条目信息
+2019-09-06 14:09:38,002 [INFO] com.demo.common.utils.HttpUtils - [get]http://api.douban.com/v2/movie /celebrity/1031931
+2019-09-06 14:09:38,066 [INFO] com.demo.common.utils.HttpUtils - [403]{msg=invalid_apikey, request=GET /v2/movie/celebrity/1031931, code=104}
+2019-09-06 14:09:38,067 [INFO] com.demo.common.utils.ListenerUtils - <---- com.demo.douban.TestMovieApi.testCelebrity
+2019-09-06 14:09:38,068 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 14:09:38,068 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 2246
+2019-09-06 14:09:38,068 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 2
+2019-09-06 14:09:38,068 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 1
+2019-09-06 14:09:38,068 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0
+2019-09-06 14:14:33,219 [INFO] com.demo.common.utils.ListenerUtils - --> com.dalingapi.TestBenefit
+2019-09-06 14:14:33,227 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 14:14:33,575 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 14:14:33,575 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=10
+2019-09-06 14:14:35,478 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567750474915, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T141434.915Z}
+2019-09-06 14:14:35,741 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 1 failed
+2019-09-06 14:14:35,741 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 14:14:35,741 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=10
+2019-09-06 14:14:36,041 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567750475722, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T141435.722Z}
+2019-09-06 14:14:36,054 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: run 2 failed
+2019-09-06 14:14:36,054 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods10: giving up after 2 failures
+2019-09-06 14:14:36,058 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 14:14:36,058 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.shopPopularGoods10
+2019-09-06 14:14:36,058 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.popularGoods10
+2019-09-06 14:14:36,059 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 14:14:36,059 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=1&topN=10
+2019-09-06 14:14:36,250 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567750475960, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T141435.960Z}
+2019-09-06 14:14:36,259 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods10: run 1 failed
+2019-09-06 14:14:36,259 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 14:14:36,259 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=1&topN=10
+2019-09-06 14:14:36,451 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567750476136, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T141436.136Z}
+2019-09-06 14:14:36,465 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods10: run 2 failed
+2019-09-06 14:14:36,465 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods10: giving up after 2 failures
+2019-09-06 14:14:36,467 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 14:14:36,468 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.popularGoods10
+2019-09-06 14:14:36,468 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimensionMouth
+2019-09-06 14:14:36,469 [INFO] com.demo.common.utils.ProxyUtils - [/xc_empower/benefit/sumBenefitRefundTimeDimension.do]时间维度查询店主累计收益与退款
+2019-09-06 14:14:36,469 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_empower/benefit/sumBenefitRefundTimeDimension.do?timeDimension=1
+2019-09-06 14:14:36,633 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={benefit=[], refund=[]}, trackId=7ef93954-2527-4866-a63f-853cf8b1c0b6, stopWatch=1567750476322, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T141436.322Z}
+2019-09-06 14:14:36,640 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimensionMouth
+2019-09-06 14:14:36,640 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimensionToday
+2019-09-06 14:14:36,641 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 14:14:36,641 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=3
+2019-09-06 14:14:36,993 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=28, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T141436.672Z, status=0, errorMsg=全部成功}
+2019-09-06 14:14:36,999 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimensionToday
+2019-09-06 14:14:37,000 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.shopPopularGoods100
+2019-09-06 14:14:37,000 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 14:14:37,000 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=100
+2019-09-06 14:14:37,113 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567750476823, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T141436.823Z}
+2019-09-06 14:14:37,118 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods100: run 1 failed
+2019-09-06 14:14:37,119 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/shopPopularGoods.do]查询店铺人气商品
+2019-09-06 14:14:37,119 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/shopPopularGoods.do?page=1&topN=100
+2019-09-06 14:14:37,232 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567750476942, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T141436.942Z}
+2019-09-06 14:14:37,239 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods100: run 2 failed
+2019-09-06 14:14:37,239 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.shopPopularGoods100: giving up after 2 failures
+2019-09-06 14:14:37,240 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 14:14:37,240 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.shopPopularGoods100
+2019-09-06 14:14:37,241 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Year
+2019-09-06 14:14:37,241 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitHistogramTimeDimension.do]7日收益图
+2019-09-06 14:14:37,241 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitHistogramTimeDimension.do?timeDimension=1
+2019-09-06 14:14:37,361 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data=[{dateTime=2019-08-31, sumAmount=0}, {dateTime=2019-09-01, sumAmount=0}, {dateTime=2019-09-02, sumAmount=0}, {dateTime=2019-09-03, sumAmount=0}, {dateTime=2019-09-04, sumAmount=0}, {dateTime=2019-09-05, sumAmount=0}, {dateTime=2019-09-06, sumAmount=0}], trackId=ee7e84b5-c7dd-40bc-a72e-2a6cbe54276b, stopWatch=1567750477070, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T141437.070Z}
+2019-09-06 14:14:37,369 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Year
+2019-09-06 14:14:37,369 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Mouth
+2019-09-06 14:14:37,370 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitHistogramTimeDimension.do]7日收益图
+2019-09-06 14:14:37,370 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitHistogramTimeDimension.do?timeDimension=3
+2019-09-06 14:14:37,488 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data=[{dateTime=2019-08-31, sumAmount=0}, {dateTime=2019-09-01, sumAmount=0}, {dateTime=2019-09-02, sumAmount=0}, {dateTime=2019-09-03, sumAmount=0}, {dateTime=2019-09-04, sumAmount=0}, {dateTime=2019-09-05, sumAmount=0}, {dateTime=2019-09-06, sumAmount=0}], trackId=581a9646-ad51-4c8e-aa62-f9421f63dcae, stopWatch=1567750477197, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T141437.197Z}
+2019-09-06 14:14:37,495 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitHistogramTimeDimension_Mouth
+2019-09-06 14:14:37,495 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitRefundTimeDimensionDay
+2019-09-06 14:14:37,495 [INFO] com.demo.common.utils.ProxyUtils - [/xc_empower/benefit/sumBenefitRefundTimeDimension.do]时间维度查询店主累计收益与退款
+2019-09-06 14:14:37,495 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_empower/benefit/sumBenefitRefundTimeDimension.do?timeDimension=3
+2019-09-06 14:14:37,610 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={benefit=[], refund=[]}, trackId=7b374d82-6528-4d15-a4b9-f8aafe371db4, stopWatch=1567750477322, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T141437.322Z}
+2019-09-06 14:14:37,616 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitRefundTimeDimensionDay
+2019-09-06 14:14:37,616 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.top
+2019-09-06 14:14:37,616 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/empower/browse/top.do]浏览轨迹
+2019-09-06 14:14:37,616 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/empower/browse/top.do?start=100
+2019-09-06 14:14:37,719 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, trackId=6cf3f87c-50c6-42e4-8da6-ccd4ef923a53, stopWatch=1567750477430, version=1.0, errorMsg=获取不到热销产品，请刷新重试！, status=599, timestamp=190906T141437.430Z}
+2019-09-06 14:14:37,725 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.top
+2019-09-06 14:14:37,725 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.popularGoods100
+2019-09-06 14:14:37,725 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 14:14:37,725 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=2&topN=100
+2019-09-06 14:14:37,854 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567750477558, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T141437.558Z}
+2019-09-06 14:14:37,866 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods100: run 1 failed
+2019-09-06 14:14:37,866 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/popularGoods.do]查询店铺人气商品
+2019-09-06 14:14:37,866 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/popularGoods.do?page=2&topN=100
+2019-09-06 14:14:38,007 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567750477713, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T141437.713Z}
+2019-09-06 14:14:38,013 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods100: run 2 failed
+2019-09-06 14:14:38,013 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.popularGoods100: giving up after 2 failures
+2019-09-06 14:14:38,014 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 14:14:38,014 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.popularGoods100
+2019-09-06 14:14:38,014 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.index
+2019-09-06 14:14:38,014 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/index.do]店铺页资金管理
+2019-09-06 14:14:38,014 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/index.do
+2019-09-06 14:14:38,162 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={estimateAmount=35.0, withdrawalsAmount=0.0, settlementAmount=0.0, todayAmount=0.0}, trackId=a65be2ca-f42c-4ca2-9b24-561259a5372c, stopWatch=1567750477869, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T141437.869Z}
+2019-09-06 14:14:38,169 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.index
+2019-09-06 14:14:38,169 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.list1
+2019-09-06 14:14:38,170 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 14:14:38,170 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=1&start=3&limit=4&type=1&endDateStr=2019-09-06
+2019-09-06 14:14:38,298 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567750478007, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T141438.007Z}
+2019-09-06 14:14:38,307 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list1: run 1 failed
+2019-09-06 14:14:38,307 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 14:14:38,308 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2018-10-31&benefitTypes=1&start=3&limit=4&type=1&endDateStr=2019-09-06
+2019-09-06 14:14:38,422 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567750478133, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T141438.133Z}
+2019-09-06 14:14:38,427 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list1: run 2 failed
+2019-09-06 14:14:38,427 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list1: giving up after 2 failures
+2019-09-06 14:14:38,427 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 14:14:38,428 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.list1
+2019-09-06 14:14:38,428 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.list3
+2019-09-06 14:14:38,428 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 14:14:38,428 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2019-01-05&benefitTypes=3&start=0&limit=5&type=2&endDateStr=2019-09-06
+2019-09-06 14:14:38,538 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567750478249, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T141438.249Z}
+2019-09-06 14:14:38,543 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list3: run 1 failed
+2019-09-06 14:14:38,544 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/list.do]收益明细
+2019-09-06 14:14:38,544 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/list.do?startDateStr=2019-01-05&benefitTypes=3&start=0&limit=5&type=2&endDateStr=2019-09-06
+2019-09-06 14:14:38,657 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, stopWatch=1567750478369, version=1.0, errorMsg=未知错误,系统错误, status=599, timestamp=190906T141438.369Z}
+2019-09-06 14:14:38,662 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list3: run 2 failed
+2019-09-06 14:14:38,662 [INFO] com.demo.common.utils.RetryUtils - com.dalingapi.TestBenefit.list3: giving up after 2 failures
+2019-09-06 14:14:38,663 [INFO] com.demo.common.utils.ListenerUtils - Execution of test case failed : 1 expectation failed.
+JSON path errorMsg doesn't match.
+Expected: 全部成功
+  Actual: 未知错误,系统错误
+
+2019-09-06 14:14:38,663 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.list3
+2019-09-06 14:14:38,664 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefit
+2019-09-06 14:14:38,664 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefit.do]总累计收益
+2019-09-06 14:14:38,664 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefit.do
+2019-09-06 14:14:38,796 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={amount=0.00}, trackId=e2afc7f5-7f3d-400f-a148-cd202c257548, stopWatch=1567750478508, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T141438.508Z}
+2019-09-06 14:14:38,801 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefit
+2019-09-06 14:14:38,801 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimension_Sum
+2019-09-06 14:14:38,802 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 14:14:38,802 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=2
+2019-09-06 14:14:38,939 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=29, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T141438.620Z, status=0, errorMsg=全部成功}
+2019-09-06 14:14:38,944 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimension_Sum
+2019-09-06 14:14:38,944 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimension_Yesterday
+2019-09-06 14:14:38,945 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 14:14:38,945 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=0
+2019-09-06 14:14:39,075 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=24, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T141438.762Z, status=0, errorMsg=全部成功}
+2019-09-06 14:14:39,081 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimension_Yesterday
+2019-09-06 14:14:39,081 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.sumBenefitTimeDimension_Mouth
+2019-09-06 14:14:39,082 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/sumBenefitTimeDimension.do]今日7日/本月 上月收益
+2019-09-06 14:14:39,082 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/sumBenefitTimeDimension.do?timeDimension=1
+2019-09-06 14:14:39,215 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=24, data={leftAmount=0.00, rightAmount=0.00}, trackId=null, version=1.0, timestamp=190906T141438.901Z, status=0, errorMsg=全部成功}
+2019-09-06 14:14:39,221 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.sumBenefitTimeDimension_Mouth
+2019-09-06 14:14:39,221 [INFO] com.demo.common.utils.ListenerUtils - ----> com.dalingapi.TestBenefit.indexV1
+2019-09-06 14:14:39,221 [INFO] com.demo.common.utils.ProxyUtils - [/xc_sale/benefit/indexV1.do]查询店铺首页数据
+2019-09-06 14:14:39,221 [INFO] com.demo.common.utils.HttpUtils - [get]https://dalingjia.com/xc_sale/benefit/indexV1.do
+2019-09-06 14:14:39,504 [INFO] com.demo.common.utils.HttpUtils - [200]{elapsed=0, data={yesterday={amount=0.00, orderCount=0, sales=0.00}, total={amount=0.00, orderCount=0, sales=0.00}, month={amount=0.00, orderCount=0, sales=0.00}, today={amount=0.00, orderCount=0, sales=0.00}}, trackId=c87d20f4-81f6-44ad-82e1-71241a88adb0, stopWatch=1567750479216, version=1.0, errorMsg=全部成功, status=0, timestamp=190906T141439.216Z}
+2019-09-06 14:14:39,510 [INFO] com.demo.common.utils.ListenerUtils - <---- com.dalingapi.TestBenefit.indexV1
+2019-09-06 14:14:39,511 [INFO] com.demo.common.utils.ListenerUtils - 执行结果 : false
+2019-09-06 14:14:39,511 [INFO] com.demo.common.utils.ListenerUtils - 执行时间 : 6289
+2019-09-06 14:14:39,511 [INFO] com.demo.common.utils.ListenerUtils - 用例总数 : 18
+2019-09-06 14:14:39,511 [INFO] com.demo.common.utils.ListenerUtils - 失败数量 : 6
+2019-09-06 14:14:39,511 [INFO] com.demo.common.utils.ListenerUtils - 忽略数量 : 0

@@ -57,7 +57,7 @@ public class ListenerUtils extends RunListener {
         logger.info("失败数量 : {}", result.getFailureCount());
         logger.info("忽略数量 : {}", result.getIgnoreCount());
 
-        testResult.setTestName("接口自动化测试");
+        testResult.setTestName("达令家接口自动化测试");
 
         testResult.setTestAll(result.getRunCount() + result.getIgnoreCount());
         testResult.setTestPass(result.getRunCount() - result.getFailureCount());

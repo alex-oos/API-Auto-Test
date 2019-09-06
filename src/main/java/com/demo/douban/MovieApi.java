@@ -7,6 +7,8 @@ import com.demo.common.annotation.PathVariable;
 import com.demo.common.annotation.SERVER;
 import com.jayway.restassured.response.Response;
 
+import java.nio.file.Path;
+
 /**
  * @Author: Wang Hualin
  * @Date: 2018/1/18
@@ -23,4 +25,7 @@ public interface MovieApi {
 
     @GET(path = " /celebrity/{}", description = "影人条目信息")
     Response celebrity(@PathVariable Integer id);
+
+
+
 }
